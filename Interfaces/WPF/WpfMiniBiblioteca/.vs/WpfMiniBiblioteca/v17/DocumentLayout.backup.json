@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:agregar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\libros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:libros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\mvvm\\librosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:mvvm\\librosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\autores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:autores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\libros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:libros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\interfaces\\wpfminibiblioteca\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|WpfMiniBiblioteca.csproj|solutionrelative:autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Agregar.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Agregar.xaml",
+              "RelativeDocumentMoniker": "Agregar.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Agregar.xaml",
+              "RelativeToolTip": "Agregar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T13:47:00.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Autores.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Autores.xaml",
+              "RelativeDocumentMoniker": "Autores.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Autores.xaml",
+              "RelativeToolTip": "Autores.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T13:33:49.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Autor.cs",
+              "RelativeDocumentMoniker": "Autor.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Autor.cs",
+              "RelativeToolTip": "Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:33:42.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libro.cs",
+              "RelativeDocumentMoniker": "Libro.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libro.cs",
+              "RelativeToolTip": "Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:11:57.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Libros.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libros.xaml.cs",
+              "RelativeDocumentMoniker": "Libros.xaml.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libros.xaml.cs",
+              "RelativeToolTip": "Libros.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:16:39.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\MVVM\\LibrosViewModel.cs",
+              "RelativeDocumentMoniker": "MVVM\\LibrosViewModel.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\MVVM\\LibrosViewModel.cs",
+              "RelativeToolTip": "MVVM\\LibrosViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T14:26:01.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libros.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libros.xaml",
+              "RelativeDocumentMoniker": "Libros.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\interfaces\\WpfMiniBiblioteca\\Libros.xaml",
+              "RelativeToolTip": "Libros.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T17:09:16.083Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
