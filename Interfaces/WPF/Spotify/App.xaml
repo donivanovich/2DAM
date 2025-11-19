@@ -1,0 +1,84 @@
+﻿<Application x:Class="Spotify.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Spotify"
+             xmlns:vm="clr-namespace:Spotify.MVVM.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Aplicar ViewModel a nivel GLOBAL de la aplicación -->
+        <vm:AppViewModel x:Key="AppViewModel"/>
+        <!--  FIN -->
+        <Color x:Key="ColorBackground">#FF121212</Color>
+        <Color x:Key="ColorPanel">#FF181818</Color>
+        <Color x:Key="ColorAccent">#FF1DB954</Color>
+        <Color x:Key="ColorAccentHover">#FF1ED760</Color>
+        <Color x:Key="ColorTextPrimary">#FFFFFF</Color>
+        <Color x:Key="ColorTextSecondary">#B3B3B3</Color>
+        <Color x:Key="ColorSideBackground">#212121</Color>
+
+        <SolidColorBrush x:Key="BrushBackground" Color="{StaticResource ColorBackground}" />
+        <SolidColorBrush x:Key="BrushPanel" Color="{StaticResource ColorPanel}" />
+        <SolidColorBrush x:Key="BrushAccent" Color="{StaticResource ColorAccent}" />
+        <SolidColorBrush x:Key="BrushAccentHover" Color="{StaticResource ColorAccentHover}" />
+        <SolidColorBrush x:Key="BrushTextPrimary" Color="{StaticResource ColorTextPrimary}" />
+        <SolidColorBrush x:Key="BrushTextSecondary" Color="{StaticResource ColorTextSecondary}"/>
+        <SolidColorBrush x:Key="BrushSideBackground" Color="{StaticResource ColorSideBackground}"/>
+
+        <Style TargetType="Window">
+            <Setter Property="Background" Value="{StaticResource BrushBackground}"/>
+            <Setter Property="Foreground" Value="{StaticResource BrushTextPrimary}" />
+            <Setter Property="FontFamily" Value="Segoe UI" />
+        </Style>
+
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="{StaticResource BrushBackground}"/>
+        </Style>
+
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+
+        <Style x:Key="ArtistaCardStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <StackPanel>
+                            <!-- Contenedor cuadrado para avatar -->
+                            <Grid Width="100" Height="100" Background="Transparent">
+                                <!-- Ellipse de fondo (fallback si no hay imagen) -->
+                                <Ellipse x:Name="AvatarCirculo"
+                                         Width="100"
+                                         Height="100"
+                                         Fill="#EEEEEE"/>
+                                <!-- Imagen recortada a forma circular; Source enlazado al Tag del Button -->
+                                <Image Source="{TemplateBinding Tag}"
+                                       Width="100"
+                                       Height="100"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center">
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50"/>
+                                    </Image.Clip>
+                                </Image>
+                            </Grid>
+
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       HorizontalAlignment="Center"
+                                       Margin="0,10,0,0"
+                                       FontWeight="Bold"/>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="AvatarCirculo" Property="Opacity" Value="0.3"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

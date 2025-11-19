@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SEI8leWjyik=",
+  "success": true,
+  "projectFilePath": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\WpfProyectoLiga.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ivan.kosolovskyy_alu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\vbnet\\ConstructoresYHerencias\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02354B0F-D266-4A80-A276-C9F67A056135}|ConstructoresYHerencias.vbproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\vbnet\\constructoresyherencias\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{02354B0F-D266-4A80-A276-C9F67A056135}|ConstructoresYHerencias.vbproj|solutionrelative:module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\vbnet\\ConstructoresYHerencias\\Module1.vb",
+              "RelativeDocumentMoniker": "Module1.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\vbnet\\ConstructoresYHerencias\\Module1.vb",
+              "RelativeToolTip": "Module1.vb",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowBkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-30T15:44:48.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

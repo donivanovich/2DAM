@@ -1,0 +1,12 @@
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\bin\Debug\Apuntes1.exe.config
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\bin\Debug\Apuntes1.exe
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\bin\Debug\Apuntes1.pdb
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\bin\Debug\Apuntes1.xml
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.Resources.resources
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.exe
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.xml
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.pdb
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\Apuntes1\obj\Debug\Apuntes1.exe.config

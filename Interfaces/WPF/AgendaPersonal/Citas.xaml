@@ -1,0 +1,129 @@
+﻿<Page x:Class="AgendaPersonal.Citas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AgendaPersonal"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Citas">
+
+    <Page.DataContext>
+        <local:CitasViewModel/>
+    </Page.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+           <StackPanel>
+            <TextBlock Text="Página de Citas"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   />
+            <ListBox
+                x:Name="ListaCitasInterfaz"
+                ItemsSource="{Binding Citas}"
+                SelectedItem="{Binding CitaSeleccionada}"
+                >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="5">
+                            <TextBlock Text="{Binding Titulo}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Fecha, StringFormat='{}{0:dd/MM/yyyy HH:mm}'}"/>
+                            <TextBlock Text="{Binding Descripcion}" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <TextBlock 
+                Text="Agregar Nueva Cita"
+                FontSize="20"
+                FontWeight="Bold"
+                Margin="0,20,10,10"
+                />
+            <TextBlock 
+                Text="Titulo"
+                FontSize="14"
+                FontWeight="Medium"
+                Margin="10,20,10,0"
+                />
+            <TextBox
+                x:Name="TxtTituloCita"
+                Margin="10,10,10,10"
+                />
+            <TextBlock 
+                Text="Descripción"
+                FontSize="14"
+                FontWeight="Medium"
+                Margin="10,20,10,0"
+            />
+            <TextBox 
+                x:Name="TxtDescripcionCita"
+                Height="100"
+                Margin="10,10,10,10"
+            />
+
+                <DatePicker 
+                x:Name="DatePickerCita"
+                Margin="10,10,10,10"
+                />
+
+                <ComboBox
+                   x:Name="ComboGenero"
+                   />
+
+                <Button 
+                    Style="{StaticResource  CancelarButton}"
+                    Content="Agregar Cita"
+                    Margin="10,20,0,0"
+                    Command="{Binding AgregarCitaCommand}"
+                />
+            </StackPanel> 
+        </ScrollViewer>
+
+        <StackPanel
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            >
+            <TextBlock 
+                Text="Detalles de la Cita"
+                FontSize="20"
+             />
+            <StackPanel Orientation="Horizontal">
+                <TextBlock
+                x:Name="DetalleTitulo"
+                Text="Titulo: "
+                FontSize="16"
+                Margin="10,20,10,0"
+                />
+                <TextBox 
+                    Text="{Binding CitaSeleccionada.Titulo,
+                            Mode=TwoWay}"
+                   />
+            </StackPanel>
+            <TextBlock
+                x:Name="DetalleFecha"
+                Text="Creado el "
+                FontSize="12"
+                Margin="10,20,10,0"
+            />
+            <TextBlock
+                x:Name="DetalleDescripcion"
+                Text="Descripcion: "
+                FontSize="16"
+                Margin="10,20,10,0"
+            />
+            <Button 
+                Style="{StaticResource  CancelarButton}"
+                Content="Agregar Cita"
+                Margin="10,20,0,0"
+                Command="{Binding AgregarCitaCommand}"
+            />      
+        </StackPanel>
+    </Grid>
+</Page>

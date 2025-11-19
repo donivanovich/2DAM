@@ -1,0 +1,88 @@
+﻿<Page x:Class="WpfMiniBiblioteca.Agregar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfMiniBiblioteca"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Agregar">
+
+    <Page.DataContext>
+        <local:LibrosViewModel/>
+    </Page.DataContext>
+
+    <Grid>
+        <TextBlock 
+            Text="Agregar Libro"
+            FontSize="20"
+            Background="White"
+            Margin="20"
+        />
+        <StackPanel
+            HorizontalAlignment="Center"
+            Orientation="Vertical"
+            VerticalAlignment="Center"
+            Background="#F2F2F2"
+            Width="300">
+
+            <StackPanel
+                Orientation="Horizontal">
+                <TextBlock 
+                    Text="Portada" 
+                    FontSize="16"
+                    Margin="50,10,0,10"
+                    VerticalAlignment="Center"/>
+                <Image 
+                    Source="imagenes/default.jpg" 
+                    Width="100"  
+                    Height="150" 
+                    Margin="10"/>
+            </StackPanel>
+
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center">
+                <TextBlock 
+                    Text="Titulo:" 
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Margin="10"
+                    VerticalAlignment="Center"/>
+                
+                <TextBox 
+                    Width="180" 
+                    Height="25" 
+                    Margin="0,10,10,10"
+                    Background="LightGray"
+                    Text="{Binding NuevoTitulo, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center">
+                <TextBlock 
+                    Text="Autor:" 
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Margin="10"
+                    VerticalAlignment="Center"/>
+
+                <TextBox 
+                    Width="180" 
+                    Height="25" 
+                    Margin="0,10,10,10"
+                    Background="LightGray"
+                    Text="{Binding NuevoAutor, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <Button 
+                Content="Agregar" 
+                Width="90" 
+                Height="30" 
+                FontSize="16"
+                Margin="10"
+                Background="Yellow"
+                Command="{Binding AgregarLibroCommand}"/>
+        </StackPanel>
+    </Grid>
+</Page>
