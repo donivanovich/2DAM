@@ -1,0 +1,57 @@
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\bin\Debug\Ficheros.xml
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbprojResolveAssemblyReference.cache
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Form1.resources
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Resources.resources
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.GenerateResource.Cache
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.xml
+c:\users\admin-dam2\documents\visual studio 2015\Projects\Ficheros\Ficheros\obj\Debug\Ficheros.pdb
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.xml
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.pdb
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.xml
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbprojResolveAssemblyReference.cache
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Form1.resources
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Resources.resources
+E:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.GenerateResource.Cache
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.xml
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.pdb
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\bin\Debug\Ficheros.xml
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbprojResolveAssemblyReference.cache
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Form1.resources
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.Resources.resources
+F:\Disco duro\GRADO SUPERIOR\dam2\P&S\PrimerParcial\Apuntes\all Projects\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.GenerateResource.Cache
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.xml
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.pdb
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\bin\Debug\Ficheros.xml
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.vbprojResolveAssemblyReference.cache
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.Form1.resources
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.Resources.resources
+\\Jupiter\profesores\tere\VB net\ficheros\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.GenerateResource.Cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\bin\Debug\Ficheros.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\bin\Debug\Ficheros.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\bin\Debug\Ficheros.pdb
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\bin\Debug\Ficheros.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.Form1.resources
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.Resources.resources
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Ficheros\Ficheros\obj\Debug\Ficheros.pdb

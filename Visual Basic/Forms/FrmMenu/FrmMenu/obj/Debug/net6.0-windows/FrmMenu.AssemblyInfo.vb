@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("FrmMenu"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da37a92dace56070c462cb826522dd9d5fa7768c"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f067b1641feecf124d0e17854cf781883694dd5"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("FrmMenu"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("FrmMenu"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

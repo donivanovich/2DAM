@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\visual basic\\forms\\frmmenu\\frmmenu\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|solutionrelative:frmmenu\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\visual basic\\forms\\frmmenu\\frmmenu\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|solutionrelative:frmmenu\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\visual basic\\forms\\frmmenu\\frmmenu\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|solutionrelative:frmmenu\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\visual basic\\forms\\frmmenu\\frmmenu\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{EA53AC5F-5281-4E5B-9897-678DAA23ACFC}|FrmMenu\\FrmMenu.vbproj|solutionrelative:frmmenu\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,18 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmCalculadora.vb",
+              "DocumentIndex": 0,
+              "Title": "FrmCalculadora.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\FrmMenu\\FrmCalculadora.vb",
               "RelativeDocumentMoniker": "FrmMenu\\FrmCalculadora.vb",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\FrmMenu\\FrmCalculadora.vb",
-              "RelativeToolTip": "FrmMenu\\FrmCalculadora.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\FrmMenu\\FrmCalculadora.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FrmMenu\\FrmCalculadora.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-11-20T17:23:38.271Z"
+              "WhenOpened": "2025-11-20T17:23:38.271Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\FrmMenu\\Form1.vb",
               "RelativeDocumentMoniker": "FrmMenu\\Form1.vb",
@@ -58,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Visual Basic\\Forms\\FrmMenu\\FrmMenu\\Form1.vb",
               "RelativeDocumentMoniker": "FrmMenu\\Form1.vb",
