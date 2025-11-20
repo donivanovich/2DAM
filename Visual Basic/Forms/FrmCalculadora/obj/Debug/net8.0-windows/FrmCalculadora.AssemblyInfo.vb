@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("FrmCalculadora"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab3ba34c46e29db61f8f3e0081a15df991a9ac52"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f067b1641feecf124d0e17854cf781883694dd5"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("FrmCalculadora"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("FrmCalculadora"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
