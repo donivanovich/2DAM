@@ -38,15 +38,12 @@ class RentalRepository():
 
             return rental.rental_id
     
-    def deleteRental(customer_id, inventory_id):
+    def deleteRental(rental_id):
         with Session(engine) as session:
-            rental = session.query(Rental).filter(
-            Rental.customer_id == customer_id,
-            Rental.inventory_id == inventory_id
-        ).first()
-        if rental:
-            session.delete(rental)
-            session.commit()
-            return True  # Indica que se eliminó
-        else:
-            return False  # No se encontró registro para eliminar
+            rental = session.query(Rental).filter(Rental.rental_id == rental_id).first()
+            if rental:
+                session.delete(rental)
+                session.commit()
+                return True  # Indica que se eliminó
+            else:
+                return False  # No se encontró registro para eliminar
