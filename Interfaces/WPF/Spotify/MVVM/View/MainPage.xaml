@@ -44,13 +44,14 @@
             BorderThickness="2">
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <StackPanel>
-                <TextBlock Text="Álbumes"
-                       Foreground="{StaticResource BrushTextPrimary}"
-                       FontSize="24"
-                       FontWeight="Bold"
-                       Margin="5,0,0,10"/>
+                <TextBlock 
+                    Text="Álbumes"
+                    Foreground="{StaticResource BrushTextPrimary}"
+                    FontSize="24"
+                    FontWeight="Bold"
+                    Margin="5,0,0,10"/>
                 <ItemsControl 
-                ItemsSource="{Binding ListAlbums}">
+                    ItemsSource="{Binding ListAlbums}">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
                             <WrapPanel 
