@@ -20,16 +20,11 @@ Base.metadata.create_all(engine)
 class FilmRepository():
     def getFilmByName(name):
         with Session(engine) as session:
-
             return session.query(Film).filter_by(title=name).all()
-    
-    def createNewFilm(title):
+        
+    def createNewFilm(title, language_id=1):
         with Session(engine) as session:
-            film = Film(
-                title=title
-            )
-
-            session.add(film)
+            new_film = Film(title=title, language_id=language_id)
+            session.add(new_film)
             session.commit()
-
-            return film.film_id
+            return new_film.film_id

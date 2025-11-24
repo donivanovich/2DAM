@@ -21,5 +21,11 @@ class InventoryRepository():
 
     def GetFirstFilmInventoryById(id):
         with Session(engine) as session:
-
             return session.query(Inventory).filter_by(film_id=id).first()
+        
+    def createNewInventoryForFilm(film_id, store_id=1 ):
+        with Session(engine) as session:
+            new_inventory = Inventory(film_id=film_id, store_id=store_id)
+            session.add(new_inventory)
+            session.commit()
+            return new_inventory.inventory_id

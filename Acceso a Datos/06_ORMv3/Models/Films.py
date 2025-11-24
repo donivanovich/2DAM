@@ -10,4 +10,5 @@ class Film(Base):
 
     film_id = Column(Integer, primary_key = True)
     title = Column(String)
+    language_id = Column(Integer)
     inventories = relationship("Inventory", back_populates="film")
