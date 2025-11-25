@@ -42,19 +42,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kosoi\\.nuget\\packages\\": {}
+    "C:\\Users\\ivan.kosolovskyy_alu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kosoi\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
+      "projectUniqueName": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
       "projectName": "Spotify",
-      "projectPath": "C:\\Users\\kosoi\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
-      "packagesPath": "C:\\Users\\kosoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kosoi\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\obj\\",
+      "projectPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
+      "packagesPath": "C:\\Users\\ivan.kosolovskyy_alu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kosoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivan.kosolovskyy_alu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

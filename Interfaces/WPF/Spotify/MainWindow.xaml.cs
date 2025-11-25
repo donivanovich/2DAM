@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using Spotify.MVVM.Model;
 using Spotify.MVVM.View;
+using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -31,6 +32,9 @@ namespace Spotify
 
         public MainWindow()
         {
+            //Asignar el FontFamily que trae los iconos de Segoe MDL2 Assets
+            //En caso de no haberlo definido en el style del boton
+            //BtnPlayPause.FontFamily = new FontFamily("Segoe MDL2 Assets");
             InitializeComponent();
             musicPlayer = new MediaPlayer();
             _timer.Interval = TimeSpan.FromMilliseconds(1000);
@@ -54,7 +58,9 @@ namespace Spotify
                         Artists = ficheroCancion.Tag.Performers.ToList().Select(texto => new Artist { Name = texto }).ToList(),
                         Duration = ficheroCancion.Properties.Duration.ToString(@"mm\:ss"),
                         AudioUrl = dialog.FileName,
-                        AlbumId = "" // Aquí podrías asignar el ID del álbum si es necesario
+                        AlbumId = "", // Aquí podrías asignar el ID del álbum si es necesario
+                        //Llamamos al metodo para cargar la caratula
+                        Cover = CargarCaratulaDeArchivo(ficheroCancion)
                     };
 
                     var vm = DataContext as MVVM.ViewModel.AppViewModel;
@@ -64,7 +70,10 @@ namespace Spotify
                         musicPlayer.Open(new Uri(cancion.AudioUrl, UriKind.Absolute));
                         musicPlayer.Play();
                         isPlaying = true;
+                        // Se convierte el icono de play a pause
+                        BtnPlayPause.Content = char.ConvertFromUtf32(0xE769);
                         SliderCancion.Maximum = ficheroCancion.Properties.Duration.TotalSeconds;
+                        TxtTiempoDuracionTotal.Text = ficheroCancion.Properties.Duration.ToString(@"mm\:ss");
                     }
 
                 }
@@ -77,11 +86,15 @@ namespace Spotify
             {
                 musicPlayer.Pause();
                 isPlaying = false;
+                // Se convierte el icono de play a pause
+                BtnPlayPause.Content = char.ConvertFromUtf32(0xE768);
             }
             else
             {
                 musicPlayer.Play();
                 isPlaying = true;
+                // Se convierte el icono de play a pause
+                BtnPlayPause.Content = char.ConvertFromUtf32(0xE769);
             }
         }
 
@@ -105,6 +118,24 @@ namespace Spotify
             if (musicPlayer.NaturalDuration.HasTimeSpan)
             {
                 SliderCancion.Value = musicPlayer.Position.TotalSeconds;
+                TxtTiempoTranscurrido.Text = musicPlayer.Position.ToString(@"mm\:ss");
+            }
+        }
+
+        private BitmapImage CargarCaratulaDeArchivo(TagLib.File archivo)
+        {
+            if(archivo.Tag.Pictures.Length > 0)
+            {
+                var bin = (byte[])archivo.Tag.Pictures[0].Data.Data;
+                var bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.StreamSource = new MemoryStream(bin);
+                bitmap.EndInit();
+                return bitmap;
+            }
+            else
+            {
+                return null;
             }
         }
     }
