@@ -26,13 +26,16 @@ namespace Spotify
 
         private Boolean isPlaying = false;
 
-        // Crear un temporizador para actualizar la barra de progreso
-        DispatcherTimer timer = new DispatcherTimer();
+        // Crear un temporizador para actualizar la posición de la canción
+        DispatcherTimer _timer = new DispatcherTimer();
 
         public MainWindow()
         {
             InitializeComponent();
             musicPlayer = new MediaPlayer();
+            _timer.Interval = TimeSpan.FromMilliseconds(1000);
+            _timer.Tick += new EventHandler(ticktock);
+            _timer.Start();
             MainFrame.Navigate(mainPage);
         }
 
@@ -43,7 +46,7 @@ namespace Spotify
             if (dialog.ShowDialog() == true)
             {
                 TagLib.File ficheroCancion = TagLib.File.Create(dialog.FileName);
-                if(ficheroCancion != null)
+                if (ficheroCancion != null)
                 {
                     var cancion = new Track
                     {
@@ -51,11 +54,11 @@ namespace Spotify
                         Artists = ficheroCancion.Tag.Performers.ToList().Select(texto => new Artist { Name = texto }).ToList(),
                         Duration = ficheroCancion.Properties.Duration.ToString(@"mm\:ss"),
                         AudioUrl = dialog.FileName,
-                        AlbumId = ""
+                        AlbumId = "" // Aquí podrías asignar el ID del álbum si es necesario
                     };
 
                     var vm = DataContext as MVVM.ViewModel.AppViewModel;
-                    if(vm != null)
+                    if (vm != null)
                     {
                         vm.SelectedTrack = cancion;
                         musicPlayer.Open(new Uri(cancion.AudioUrl, UriKind.Absolute));
@@ -63,19 +66,22 @@ namespace Spotify
                         isPlaying = true;
                         SliderCancion.Maximum = ficheroCancion.Properties.Duration.TotalSeconds;
                     }
+
                 }
             }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if(isPlaying)
+            if (isPlaying)
             {
                 musicPlayer.Pause();
+                isPlaying = false;
             }
             else
             {
                 musicPlayer.Play();
+                isPlaying = true;
             }
         }
 
@@ -92,6 +98,14 @@ namespace Spotify
         private void SliderCancion_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             musicPlayer.Position = TimeSpan.FromSeconds(SliderCancion.Value);
+        }
+
+        void ticktock(object sender, EventArgs e)
+        {
+            if (musicPlayer.NaturalDuration.HasTimeSpan)
+            {
+                SliderCancion.Value = musicPlayer.Position.TotalSeconds;
+            }
         }
     }
 }
