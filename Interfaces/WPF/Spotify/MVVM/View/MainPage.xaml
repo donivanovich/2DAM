@@ -61,13 +61,24 @@
                     </ItemsControl.ItemsPanel>
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
-                            <Border 
+                            <Button
                             Width="350"
                             Margin="10"
                             Background="{StaticResource BrushPanel}"
-                            CornerRadius="10"
                             BorderBrush="{StaticResource BrushSideBackground}"
-                            BorderThickness="2">
+                            BorderThickness="2"
+                            Cursor="Hand">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}"
+                                                CornerRadius="10"
+                                                BorderBrush="{TemplateBinding BorderBrush}"
+                                                BorderThickness="{TemplateBinding BorderThickness}">
+                                            <ContentPresenter />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+
                                 <StackPanel Orientation="Horizontal">
 
                                     <Image Source="{Binding CoverUrl}"
@@ -81,7 +92,7 @@
                                                FontWeight="Bold"/>
                                     </StackPanel>
                                 </StackPanel>
-                            </Border>
+                            </Button>
 
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

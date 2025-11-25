@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/9sDsGGBhY=",
+  "dgSpecHash": "EkYz5ASj8q8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
+  "projectFilePath": "C:\\Users\\kosoi\\Documents\\2DAM\\Interfaces\\WPF\\Spotify\\Spotify.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ivan.kosolovskyy_alu\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
+    "C:\\Users\\kosoi\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512"
   ],
   "logs": []
 }
