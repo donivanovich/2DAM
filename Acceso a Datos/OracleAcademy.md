@@ -55,6 +55,14 @@
     - [**13-2 Uso de Tipos de Dato**](#13-2-uso-de-tipos-de-dato)
     - [**13-3 Modificacion de una Tabla**](#13-3-modificacion-de-una-tabla)
   - [14 - Programación de BBDD con SQL](#14---programación-de-bbdd-con-sql)
+    - [**14-1 Introduccion a las Restricciones NOT NULL y UNIQUE**](#14-1-introduccion-a-las-restricciones-not-null-y-unique)
+    - [**14-2 Restricciones PRIMARY KEY, FOREIGN KEY y CHECK**](#14-2-restricciones-primary-key-foreign-key-y-check)
+    - [**14-3 Gestion de Restricciones**](#14-3-gestion-de-restricciones)
+  - [15 - Programación de BBDD con SQL](#15---programación-de-bbdd-con-sql)
+    - [**15-1 Creacion de Vistas**](#15-1-creacion-de-vistas)
+    - [**15-2 Operaciones DML y Vistas**](#15-2-operaciones-dml-y-vistas)
+    - [**15-3 Gestion de Vistas**](#15-3-gestion-de-vistas)
+
 
 
 ## 1 - Programación de BBDD con SQL
@@ -2083,3 +2091,118 @@ SELECT * copy_employees;
         ALTER TABLE copy_departments -- Activacion de restricciones
         ENABLE CONSTRAINT c_dept_dept_id_pk;
         ```
+
+## 15 - Programación de BBDD con SQL
+
+### **15-1 Creacion de Vistas**
+
+- Una **Vista** es una representacion logica de tablas existentes o de otra vista y no contienen datos propios, se utilizan para reducir la complejidad de la ejecucion de las consultas basadas en sentencias **SELECT** complicadas
+    ```sql
+    CREATE VIEW view_employees
+    AS SELECT employee_id, first_name, last_name, email
+        FROM employees
+        WHERE employee_id BETWEEN 100 and 124;
+    ```
+
+    |          Parámetro      | Descripción                                                                                           |
+    |------------------------ |-------------------------------------------------------------------------------------------------------|
+    | WITH CHECK OPTION       | Especifica que las filas siguen estando accesibles para la vista después de las operaciones de inserción o actualización. |
+    | CONSTRAINT              | Es el nombre asignado a la restricción CHECK OPTION.                                                  |
+    | WITH READ ONLY          | Garantiza que no se pueda realizar ninguna operación DML en esta vista.                               |
+    | OR REPLACE              | Vuelve a crear la vista si ya existe.                                                                |
+    | FORCE                   | Crea la vista independientemente de si existen o no las tablas base.                                  |
+    | NOFORCE                 | Crea la vista solo si existe la tabla base (opción por defecto).                                      |
+    | view_name               | Especifica el nombre de la vista.                                                                     |
+    | alias                   | Especifica un nombre para cada expresión seleccionada por la consulta de la vista.                    |
+    | subconsulta             | Es una sentencia SELECT completa. Puede utilizar alias para las columnas de la lista SELECT. La subconsulta puede contener la sintaxis compleja SELECT. |
+
+    - Vista Simple (Uuna unica tabla)
+        ```sql
+        CREATE OR REPLACE VIEW view_euro_countries -- OR REPLACE sirve para modificar una vista
+        AS SELECT country_id, region_id, country_name, capitol
+            FROM wf_countries
+            WHERE location LIKE '%Europe';
+        ```
+    - Vista Compleja (dos o mas tablas y pueden contener funciones de grupo)
+
+### **15-2 Operaciones DML y Vistas**
+
+- Sentencias **DML** y **Vistas**
+    - Las operaciones **DML INSERT**, **UPDATE** Y **DELETE** se pueden realizar en vistas simples
+    - Se pueden utilizar para cambiar los datos en las tablas base subyacentes
+        ```sql
+        CREATE VIEW view_dept50
+        AS SELECT department_id,
+                employee_id, first_name, last_name, salary
+            FROM copy_employees
+            WHERE department_id = 50;
+        ```
+    - Es posible insertar, actualizar y suprimir informacion de todas las filas de la vista
+    - Para controlar el acceso a los datos, se pueden agregar dos opciones a la sentencia **CREATE VIEW**
+        - **WITH CHECK OPTION** garantiza que las operaciones **DML** realizadas en la vista se mantengan en el dominio de la vista
+            ```sql
+            CREATE OR REPLACE VIEW view_dept50
+            AS SELECT department_id, employee_id, first_name, last_name, salary
+                FROM employees
+                WHERE department_id = 50
+            WITH CHECK OPTION CONSTRAINT view_dept50_check;
+            ```
+        - **WITH READ ONLY** garantiza que no se produzca ninguna operacion **DML** en la vista (INSERT, UPDATE o DELETE)
+            ```sql
+            CREATE OR REPLACE VIEW view_dept50
+            AS SELECT department_id, employee_id, first_name, last_name, salary
+                FROM employees
+                WHERE department_id = 50
+            WITH READ ONLY;
+            ```
+
+- Restricciones de DML
+    - Para las vistas simples, las operaciones DML se pueden realizar en la vista
+    - Para las vistas complejas, las operaciones DML NO siempre estan permitidas
+    - Las tres reglas:
+        1. No puede eliminar una fila desde una tabla base subyacente si la vista contiene algo de lo siguiente:
+            - Funciones de grupo
+            - Una clausula **GROUP BY**
+            - La palabra clave **DISTINCT**
+            - La palabra clave **ROWNUM** de pseudocolumna
+        2. No puede modificar datos de una vista si la vista contiene:
+            - Funciones de grupo
+            - Una clausula **GROUP BY**
+            - La palabra clave **DISTINCT**
+            - La palabra clave **ROWNUM** de pseudocolumna
+            - Columnas definidas por expresiones
+        3. No puede agregar datos en una vista si esta incluye:
+            - Funciones de grupo
+            - Una clausula **GROUP BY**
+            - La palabra clave **DISTINCT**
+            - Palabra clave **ROWNUM** de pseudocolumna
+            - Columnas definidas por expresiones
+            - O no incluye columnas **NOT NULL** en las tablas base
+
+### **15-3 Gestion de Vistas**
+
+- Supresion de una Vista
+    - Esta eliminacion no afecta a los datos de las tablas subyacentes ya que una vista no contiene datos propios
+    - Si la vista se ha utilizado para insertar, actualizar o suprimir datos en el pasado, esos cambios en las tablas base se mantienen
+    ```sql
+    DROP VIEW viewname;
+    ```
+
+- Vistas en Linea se utilizan normalmente para simplificar las complejas consultas mediante la eliminacion de operaciones de union y la condensacion de varias consultas en una sola
+    ```sql
+    SELECT e.last_name, e.salary, e.department_id, d.maxsal
+    FROM employees e,
+        (SELECT department_id, max(salary) maxsal
+            FROM employees
+            GROUP BY department_id) d
+    WHERE e.department_id = d.department_id
+    AND e.salary = d.maxsal;
+    ```
+
+- El Analisis de N Principales es una operacion SQL utilizada para clasificar resultados, resulta util cuando desea recuperar los 5 resitros principales o los n registros principales de un juego de resultados devuelto por una consulta
+    ```sql
+    SELECT ROWNUM AS "Longest employed", last_name, hire_date
+    FROM employees
+    WHERE ROWNUM <= 5 -- ROWNUM: asigna un numero de fila al juego de resultados
+    ORDER BY hire_date;
+    ```
