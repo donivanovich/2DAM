@@ -1,0 +1,576 @@
+openapi: 3.0.3
+info:
+  description: "API para ejercicios de Python"
+  version: "1.0.0"
+  title: "API Python"
+
+servers:
+  - url: '127.0.0.1:5000'
+
+tags:
+- name: Autenticación
+  description: "Acciones relacionadas con la autenticación"
+- name: Posts
+  description: "Acciones relacionadas con los posts"
+- name: Comments
+  description: "Acciones relacionadas con los comentarios"
+
+paths:
+  /login:
+    post:
+      tags:
+      - Autenticación
+      summary: "Devuelve el token de sesión del usuario que se autentica. Para administrador: admin - 1234 Para el resto de usuarios, username de la lista de usuarios y cualquier contraseña"
+      description: ""
+      operationId: "login"
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/LoginData'
+      responses:
+        '200':
+          description: "Autenticación correcta"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResult'
+        "401":
+          description: "Error"
+
+  /posts:
+    get:
+      tags:
+      - Posts
+      summary: "Devuelve una lista con todos los posts"
+      description: ""
+      operationId: "getPosts"
+      parameters:
+        - in: query
+          name: id
+          schema:
+            type: integer
+          required: false
+        - in: query
+          name: title
+          schema:
+            type: string
+          required: false
+      responses:
+        "200":
+          description: "Petición correcta"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PostSimple'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          
+    post:
+      security:
+        - bearerAuth: []
+      tags:
+      - Posts
+      summary: "Crea un nuevo post"
+      description: ""
+      operationId: "addPost"
+      requestBody:
+        description: Los datos de un post
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewPost'
+      responses:
+        "201":
+          description: "CREATED"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: 'Unauthorized'
+    
+  /posts/{id}:
+    get:
+      tags:
+      - Posts
+      summary: "Devuelve toda la insformación del post solicitaddo"
+      description: ""
+      operationId: "getPostsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del post
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+    put:
+      security:
+        - bearerAuth: []
+      tags:
+      - Posts
+      summary: "Modifica el post"
+      description: ""
+      operationId: "editPostsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del post
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        description: Los datos que se quieran modificar
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EditPost'
+      responses:
+        '200':
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Post'  
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+        '401':
+          description: 'Unauthorized'
+    delete:
+      security:
+        - bearerAuth: []
+      tags:
+      - Posts
+      summary: "Elimina el post"
+      description: "Se necesita ser administrador"
+      operationId: "deletePostsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del post
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: "OK"
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+        '401':
+          description: 'Unauthorized'
+  /comments:
+    get:
+      tags:
+      - Comments
+      summary: "Devuelve una lista con todos los comentarios"
+      description: ""
+      operationId: "getComments"
+      parameters:
+        - in: query
+          name: id
+          schema:
+            type: integer
+          required: false
+        - in: query
+          name: postId
+          schema:
+            type: integer
+          required: false
+        - in: query
+          name: name
+          schema:
+            type: string
+          required: false
+      responses:
+        '200':
+          description: "Petición correcta"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CommentSimple'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+          
+    post:
+      security:
+        - bearerAuth: []
+      tags:
+      - Comments
+      summary: "Crea un nuevo comentario"
+      description: ""
+      operationId: "addComment"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewComment'
+      responses:
+        '201':
+          description: "CREATED"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'  
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: 'Unauthorized'
+    
+  /comments/{id}:
+    get:
+      tags:
+      - Comments
+      summary: "Devuelve toda la insformación del comentario solicitaddo"
+      description: ""
+      operationId: "getCommentsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del comentario
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      security:
+        - bearerAuth: []
+      tags:
+      - Comments
+      summary: "Modifica el comentario"
+      description: ""
+      operationId: "editCommentsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del comentario
+          required: true
+          schema:
+            type: integer
+            format: int64
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EditComment'
+      responses:
+        '200':
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Comment'
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+        '401':
+          description: 'Unauthorized'
+    delete:
+      security:
+        - bearerAuth: []
+      tags:
+      - Comments
+      summary: "Elimina el comentario"
+      description: "Se necesita ser administrador"
+      operationId: "deleteCommentsById"
+      parameters:
+        - name: id
+          in: path
+          description: ID del comentario
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: "OK"
+        '400':
+          description: "Error desconocido"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '404':
+          description: "No encontrado"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotFound'
+        '401':
+          description: 'Unauthorized'
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    
+  schemas:
+    LoginData:
+      type: 'object'
+      required:
+      - 'user'
+      - 'pass'
+      properties:
+        user:
+          type: 'string'
+        pass:
+          type: 'string'
+    LoginResult:
+      type: "object"
+      required:
+      - "token"
+      properties:
+        token:
+          type: "string"
+    PostSimple:
+      type: "object"
+      required:
+      - "id"
+      - "title"
+      properties:
+        id:
+          type: "integer"
+          format: "int64"
+        title:
+          type: "string"
+          example: "Titulo"
+    Post:
+      type: "object"
+      required:
+      - "id"
+      - "userId"
+      - "title"
+      - "body"
+      properties:
+        id:
+          type: "integer"
+          format: "int64"
+        userId:
+          type: "integer"
+          format: "int64"
+        title:
+          type: "string"
+          example: "Titulo"
+        body:
+          type: "string"
+          example: "Contenido del post"
+          
+    NewPost:
+      type: "object"
+      required:
+      - "userId"
+      - "title"
+      - "body"
+      properties:
+        userId:
+          type: "integer"
+          format: "int64"
+        title:
+          type: "string"
+          example: "Titulo"
+        body:
+          type: "string"
+          example: "Contenido del post"
+          
+    EditPost:
+      type: "object"
+      properties:
+        userId:
+          type: "integer"
+          format: "int64"
+        title:
+          type: "string"
+          example: "Titulo"
+        body:
+          type: "string"
+          example: "Contenido del post"
+          
+    CommentSimple:
+      type: "object"
+      required:
+      - "id"
+      - "postId"
+      - "name"
+      properties:
+        id:
+          type: "integer"
+          format: "int64"
+        postId:
+          type: "integer"
+          format: "int64"
+        name:
+          type: "string"
+          example: "Nombre"
+          
+    Comment:
+      type: "object"
+      required:
+      - "id"
+      - "postId"
+      - "email"
+      - "name"
+      - "body"
+      properties:
+        id:
+          type: "integer"
+          format: "int64"
+        postId:
+          type: "integer"
+          format: "int64"
+        email:
+          type: "string"
+          example: "email@domain.com"
+        name:
+          type: "string"
+          example: "Nombre"
+        body:
+          type: "string"
+          example: "Contenido del comentario"
+          
+    NewComment:
+      type: "object"
+      required:
+      - "postId"
+      - "email"
+      - "name"
+      - "body"
+      properties:
+        postId:
+          type: "integer"
+          format: "int64"
+        email:
+          type: "string"
+          example: "email@domain.com"
+        name:
+          type: "string"
+          example: "Nombre"
+        body:
+          type: "string"
+          example: "Contenido del comentario"
+          
+    EditComment:
+      type: "object"
+      properties:
+        postId:
+          type: "integer"
+          format: "int64"
+        email:
+          type: "string"
+          example: "email@domain.com"
+        name:
+          type: "string"
+          example: "Nombre"
+        body:
+          type: "string"
+          example: "Contenido del comentario"
+          
+    Error:
+      type: "object"
+      required:
+      - "ERROR"
+      properties:
+        ERROR:
+          type: "string"
+          example: "Error desconocido"
+          
+    NotFound:
+      type: "object"
+      required:
+      - "ERROR"
+      properties:
+        ERROR:
+          type: "string"
+          example: "El elemento no existe"
