@@ -46,6 +46,8 @@
     - [**10-2 Subconsultas de Una Sola Fila**](#10-2-subconsultas-de-una-sola-fila)
     - [**10-3 Subconsultas de Varias Filas**](#10-3-subconsultas-de-varias-filas)
     - [**10-4 Subconsultas Correlacionadas**](#10-4-subconsultas-correlacionadas)
+  - [11 - Garantia de Consultas de Calidad Parte 1](#11---garantia-de-consultas-de-calidad-parte-1)
+    - [**11-1 Garantia de Resultados de Consultas de Calidad**](#11-1-garantia-de-resultados-de-consultas-de-calidad)
   - [12 - DML](#12---dml)
     - [**12-1 Sentencias INSERT**](#12-1-sentencias-insert)
     - [**12-2 Actualizacion de Valores de Columnas y Supresion de Filas**](#12-2-actualizacion-de-valores-de-columnas-y-supresion-de-filas)
@@ -69,9 +71,14 @@
     - [**17-1 Control de Acceso de los Usuarios**](#17-1-control-de-acceso-de-los-usuarios)
     - [**17-2 Creacion y Revocacion de Privilegios de Objeto**](#17-2-creacion-y-revocacion-de-privilegios-de-objeto)
     - [**17-3 Expresiones Regulares**](#17-3-expresiones-regulares)
-  - [18 - TCL](#18)
-
-
+  - [18 - TCL](#18---tcl)
+    - [**18-1 Transacciones de Base de Datos**](#18-1-transacciones-de-base-de-datos)
+  - [19 - Proyecto Final y Revision de Examen](#19---tcl)
+    - [**19-1 Pruebas**](#19-1-pruebas)
+    - [**19-2 Creacion de la BBDD del Proyecto Final**](#19-2-creacion-de-la-bbdd-del-proyecto-final)
+    - [**19-2 Revision del Examen Final**](#19-3-revision-del-examen-final)
+  - [20 - Garantia de Consultas de Calidad Parte 2](#20---garantia-de-consultas-de-calidad-parte-2)
+    - [**20-1 Garantia de Resultados de Consultas de Calidad - Tecnicas Avanzadas**](#20-1-garantia-de-resultados-de-consultas-de-calidad---tecnicas-avanzadas)
 
 ## 1 - Introduccion
 
@@ -1647,6 +1654,10 @@ WHERE manager_id IS NULL;
     -- Esta consulta utiliza una CTE llamada managers para listar todos los IDs de manager y luego selecciona los empleados que no gestionan a nadie
     ```
 
+## 11 - Garantia de Consultas de Calidad Parte 1
+
+### **11-1 Garantia de Resultados de Consultas de Calidad**
+
 ## 12 - DML
 
 ### **12-1 Sentencias INSERT**
@@ -2419,3 +2430,510 @@ VALUES
 - Un **enlace de BBDD** es un puntero que define una ruta de acceso de comunicacion unidireccional de una BBDD Oracle a otra BBDD con **CREATE DATABASE LINK**
 
 ### **17-3 Expresiones regulares**
+
+- El uso de expresiones regulares/normales se basa en el uso de **metacaracteres**
+    - Los metacaracteres son caracteres, con un significado especial, como un caracter comodin, un caracter repetitivo, un caracter no coincidente o un rango de caracteres
+
+    | Símbolo   | Descripción                                                                                                      |
+    | --------- | ---------------------------------------------------------------------------------------------------------------- |
+    | . (punto) | Coincide con cualquier carácter en el juego de caracteres soportados, excepto NULL.                              |
+    | ?         | Coincide con ninguna o una incidencia.                                                                           |
+    | *         | Coincide con cero o más incidencias.                                                                             |
+    | +         | Coincide con una o más incidencias.                                                                              |
+    | ()        | Expresión de agrupación, que se trata como una sola subexpresión.                                                |
+    | \\        | Carácter de escape.                                                                                              |
+    | \|        | Operador de alternancia para especificar coincidencias alternativas.                                             |
+    | ^ / $     | Coincide con el principio de línea / final de línea.                                                             |
+    | []        | Expresión de corchetes para una lista coincidente que coincide con cualquier expresión representada en la lista. |
+    - Puede utilizar estas funcones en cualquier tipo de datos que contenga datos de caracteres como **CHAR**, **CLOB** y **VARCHAR2**, y una expresion regular debe ir entre comillas simples
+        | Name           | Description                                                                                                                                                                                      |
+        | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+        | REGEXP_LIKE    | Similar al operador LIKE, pero realiza coincidencias usando expresiones regulares en lugar de una simple coincidencia de patrones.                                                                                       |
+        | REGEXP_REPLACE | Busca un patrón de expresión regular y lo reemplaza por una cadena de sustitución.                                                                                                               |
+        | REGEXP_INSTR   | Busca en una cadena un patrón de expresión regular y devuelve la posición donde se encuentra la coincidencia.                                                                                    |
+        | REGEXP_SUBSTR  | Busca un patrón de expresión regular dentro de una cadena y devuelve la subcadena que coincide.                                                                                               |
+        | REGEXP_COUNT   | Devuelve el número de veces que un patrón aparece en una cadena; se indica la cadena y el patrón, y opcionalmente la posición inicial y opciones de coincidencia (por ejemplo, c para distinguir mayúsculas y minúsculas). |
+    
+    ```sql
+    SELECT first_name, last_name
+    FROM employees
+    WHERE REGEXP_LIKE(first_name, '^Ste(v|ph)en$');
+    ```
+
+    -  Con expresiones regulares, solo tiene que utilizar la función REGEXP_LIKE y la cadena de búsqueda: '^Ste(v|ph)en$'
+        - "^" especifica el inicio de la cadena que se está buscando
+        - "S" mayúscula, seguida de
+        - "t" minúscula, seguida de
+        - "e" minúscula, seguida de
+        - "(" inicia una subexpresión
+        - "v" minúscula
+        - "|" especifica un O
+        - "p" minúscula seguida de "h" mayúscula
+        - ")" termina con el grupo de opciones,
+        - "e" minúscula
+        - "n" minúscula
+        - "$" especifica el final de la cadena que se está buscando
+        - ".+" significa uno o más caracteres
+        - "@" un símbolo @
+        - "\." a . (un punto) (aquí la barra invertida es un carácter de escape)
+
+## 18 - Proyecto Final y Revision de Examen
+
+### **18-1 Transacciones de Base de Datos**
+
+- Las **Transacciones** permiten a los usuarios realizar cambios en los datos y decidir si desean guardar o desechar el trabajo
+    - Las **transacciones de base** agrupan varios pasos en una unidad logica de trabajo
+    - Una transaccion consiste en una de las siguientes opciones:
+        - Sentencias DML que constituyen un cambio consistente de los datos
+        - Las sentencias DML incluyen **INSERT**, **UPDATE**, **DELETE** y **MERGE**
+        - Una sentencia DDL como **CREATE**, **ALTER**, **DROP**, **RENAME** o **TRUNCATE**
+        - Una sentencia DCL como **GRANT** o **REVOKE**
+
+    - Las transacciones se controlan mediante las siguientes sentencias:
+        - **COMMIT**: representa el punto en el tiempo en el que el usuario ha realizado todos los cambios que queria para agruparlos logicamente y, puesto que no se ha cometido ningun error, el usuario esta listo para guardar el trabajo
+        - **ROLLBACK**: permite al usuario desechar los cambios realizados en la Base de Datos
+        - **SAVEPOINT**: crea un marcador en una transaccion, que divide la transaccion en varias partes mas pequeñas
+        - **ROLLBACK TO SAVEPOINT**: permite al usuario realizar un rollback de la transaccion actual hasta un punto de grabacion especificado
+        ```sql
+        INSERT INTO copy_departments (department_id, department_name, manager_id, location_id)
+        VALUES (130, 'Estate Management', 102, 1500);
+
+        UPDATE copy_departments
+        SET department_id = 140;   -- cláusula WHERE omitida
+
+        ROLLBACK TO SAVEPOINT one;
+
+        COMMIT;
+        ```
+
+- Para evitar que alguien mas este introduciendo informacion que entra en conflicto con tus cambios, los sistemas de BBDD utilizan una implantacion automatica denominada **consistencia de lectura**
+    - La **consistencia de lectura** garantiza una vista consistente de los datos para todos los usuarios en todo momento y es una implementacion automatica
+    - Antes de confirmar los cambios en la base de datos, solo el usuario que esta cambiando los datos ve los cambios; todos los demas ven la instantanea en el segmento de deshacer
+    - Esto garantiza que los lectores de los datos vean datos consistentes en los que no se este realizando actualmente ningun cambio
+
+- Cambios Visibles
+    - Cuando se confirma una sentencia DML, cualquiera que ejecute la sentencia **SELECT** puede ver el cambio realizado
+    - Si se realiza un rollback de la transaccion, los cambios se deshacen: 
+        - La version original anterior de los datos del segmento de deshacer se vuelve a escribir en la tabla
+        - Todos los usuarios ven la base de datos como existia antes de comenzar la transaccion
+
+- **COMMIT** y **ROLLBACK** garantizan la consistencia de los datos, posibilitando obtener una vista previa de los cambios en los datos antes de hacer que los cambios sean permanentes y para agrupar logicamente operaciones relacionadas
+- **SAVEPOINT** crea un punto en una transaccion al que puede realizar un rollback sin tener que deshacer toda la transaccion
+- **COMMIT**, **ROLLBACK** y **SAVEPOINT** se denominan lenguaje de control de transacciones o TCL
+
+## 19 - TCL
+
+### **19-1 Pruebas**
+
+- Si se prueban dos cosas a la vez y falla la prueba, es dificil o imposible averiguar que ha provocado el fallo, por lo que es importante probar solo una cosa a la vez, esto se conoce como **pruebas de unidades**
+    - Al probar una base de datos, necesita probar gran variedad de elementos, por ejemplo:
+        - Que las columnas contengan el tipo de dato correcto
+        - Que las columnas pueden albergar la mayor cantidad de datos que se puedan introducir
+        - Debe comprobarse que las restricciones solo restringen o limitan los datos que se supone que deben restringir, ni mas ni menos
+    - Deben realizarse una serie de pruebas aleatorias, que comprueben algunas columnas y algunas restricciones
+
+### **19-2 Creacion de la BBDD del Proyecto Final**
+
+### **19-3 Revision del Examen Final**
+
+- Mayúsculas/minúsculas
+```sql
+LOWER(column_name | expression)
+UPPER(column_name | expression)
+INITCAP(column_name | expression)
+```
+
+- Caracteres
+```sql
+CONCAT(column_name | expression, column_name | expression)
+SUBSTR(column_name | expression, n, m)
+LENGTH(column_name | expression)
+INSTR(column_name | expression, string_literal)
+LPAD(column_name | expression, n, character_literal)
+RPAD(column_name | expression, n, character_literal)
+TRIM([leading | trailing | both] char1 FROM char2)
+REPLACE(column_name | expression, string_to_be_replaced, replacement_string)
+```
+
+- Funciones Numericas
+    ```sql
+    ROUND(column | expression, n)
+    TRUNC(column | expression, n)
+    MOD(column | expression, column | expression)
+    ```
+
+- Funciones de Fecha
+    ```sql
+    ROUND(column | expression, string)
+    TRUNC(column | expression, string)
+
+    MONTHS_BEWEEN(column | expression, column | expression)
+    ADD_MONTHS(column | expression, n)
+    NEXT_DAY(column | expression, 'day')
+    LAST_DAY(column | expression)
+    ```
+
+- Funciones de Conversion
+    ```sql
+    TO_CHAR(number, 'format model')
+    TO_CHAR(date,   'format model')
+    TO_NUMBER(character_string, 'format model')
+    TO_DATE(character_string,   'format model')
+    ```
+
+- Funciones NULL
+    ```sql
+    NVL(column | expression, value)
+
+    NVL2(column | expression,
+        column | expression,
+        column | expression)
+
+    NULLIF(column | expression, column | expression)
+
+    COALESCE(column | expression,
+            column | expression,
+            column | expression, …,
+            column | expression)
+    ```
+
+- Expresiones Condicionales
+    ```sql
+    -- Específico de Oracle
+    DECODE(column | expression, search1, result1
+                        [, search2, result2, ...]
+                        [, default])
+
+    -- ANSI
+    CASE expr
+        WHEN comparison_expr1 THEN return_expr1
+        [WHEN comparison_expr2 THEN return_expr2
+        WHEN comparison_exprN THEN return_exprN
+        ELSE else_expr]
+    END
+    ```
+
+- Sintaxis Estandar **ANSI SQL**
+    ```sql
+    -- Cross Join
+    SELECT last_name, department_name
+    FROM employees CROSS JOIN departments;
+
+    -- Natural Join
+    SELECT employee_id, last_name, department_name
+    FROM employees NATURAL JOIN departments;
+
+    -- Join .. ON
+    SELECT e.employee_id, e.last_name, e.salary, j.grade_level
+    FROM employees e JOIN job_grades j
+    ON (e.salary BETWEEN j.lowest_sal AND j.highest_sal);
+
+    -- Joins .. USING
+    SELECT employee_id, last_name, department_name
+    FROM employees JOIN departments
+    USING (department_id);
+
+    -- Join .. ON
+    SELECT e.employee_id, e.last_name, d.department_id, d.location_id
+    FROM employees e JOIN departments d
+    ON (e.department_id = d.department_id);
+
+    -- Uniones Externas
+
+    -- Right Outer Join
+    SELECT e.employee_id, e.last_name, e.department_id, d.department_name
+    FROM employees e RIGHT OUTER JOIN departments d
+    ON (e.department_id = d.department_id);
+
+    -- Left Outer Join
+    SELECT e.employee_id, e.last_name, e.department_id, d.department_name
+    FROM employees e LEFT OUTER JOIN departments d
+    ON (e.department_id = d.department_id);
+
+    -- Full Outer Join
+    SELECT e.employee_id, e.last_name, e.department_id, d.department_name
+    FROM employees e FULL OUTER JOIN departments d
+    ON (e.department_id = d.department_id);
+    ```
+
+- Funciones de Grupo
+    ```sql
+    AVG      (column | expression)
+    COUNT    (column | expression)
+    MIN      (column | expression)
+    MAX      (column | expression)
+    SUM      (column | expression)
+    VARIANCE (column | expression)
+    STDDEV   (column | expression)
+
+    SELECT column1, AVG(column | expression)
+    FROM table1
+    GROUP BY [ROLLUP | CUBE] (column1 | GROUPING SETS)
+    HAVING AVG(column | expression);
+    ```
+
+- Subconsultas de Una o Varias Filas
+    ```sql
+    SELECT column1 ..
+    FROM table1
+    WHERE column2 = (
+        SELECT column2
+        FROM table1
+        WHERE column3 = expression
+    );
+    ```
+
+- Operadores de Una Sola Fila: =, >, <, >=, <=, <>
+- Operadores de Varias Filas: IN, ANY, ALL
+
+- Subconsultas Pareadas y No Pareadas
+    ```sql
+    -- Pareadas
+    SELECT column1..
+    FROM table1
+    WHERE (column2, column3) = (
+        SELECT column2, column3
+        FROM table1
+        WHERE column4 = expression
+    );
+
+    -- No pareadas
+    SELECT column1..
+    FROM table1
+    WHERE column2 = (
+        SELECT column2
+        FROM table1
+        WHERE column4 = expression
+    )
+    AND column3 = (
+        SELECT column3
+        FROM table2
+        WHERE column4 = expression
+    );
+    ```
+
+- Subconsultas Correlacionadas
+    ```sql
+    SELECT o.column1..
+    FROM table1 o
+    WHERE o.column2 = 
+        (SELECT i.column2
+        FROM table2 i
+        WHERE i.column1 = o.column1);
+    ```
+
+- Insercion, Actualizacion y Supresion de Datos
+    ```sql
+    -- INSERT explícito
+    INSERT INTO table (column1, column2, ...)
+    VALUES (value1, value2, ...);
+
+    -- INSERT implícito
+    INSERT INTO table
+    VALUES (value1, value2, value3, value4);
+
+    UPDATE table1
+    SET column1 = value1,
+        column2 = value2, ...
+    WHERE column1 = value;
+
+    DELETE FROM table1
+    WHERE column1 = value;
+    ```
+
+- Valores por Defecto
+    ```sql
+    CREATE TABLE table1 (
+        column1 DATE DEFAULT SYSDATE,
+        ...
+    );
+
+    INSERT INTO table1 (column1, ...)
+    VALUES (DEFAULT, ...);
+    ```
+
+- Sentencia Merge
+    ```sql
+    -- Insercion en varias tablas
+    MERGE INTO destination_table USING source_table
+    ON matching_condition
+    WHEN MATCHED THEN
+        UPDATE
+        SET ...
+    WHEN NOT MATCHED THEN
+        INSERT
+        VALUES (...);
+    ```
+
+- Creacion de Tablas
+    ```sql
+    CREATE TABLE table (
+        column  data_type [DEFAULT expression],
+        column  data_type [DEFAULT expression],
+        ... [ ]
+    );
+
+    CREATE TABLE tablename
+        [(column, column, ...)]
+    AS subquery;
+    ```
+
+- Especificacion de Tipos de Dato
+    ```sql
+    NUMBER(p, s)
+    CHAR
+    VARCHAR2(n)
+    DATE
+    TIMESTAMP
+    TIMESTAMP WITH TIME ZONE
+    TIMESTAMP WITH LOCAL TIME ZONE
+    INTERVAL YEAR TO MONTH
+    INTERVAL DAY TO SECOND
+    CLOB
+    BLOB
+    RAW
+    ```
+
+- Modificacion de una Tabla
+    ```sql
+    ALTER TABLE tablename
+    ADD (column_name data_type [DEFAULT expression] ...);
+
+    ALTER TABLE tablename
+    MODIFY (column_name VARCHAR2(30));
+
+    ALTER TABLE tablename
+    DROP COLUMN column_name;
+
+    ALTER TABLE tablename
+    SET UNUSED (column_name);
+
+    ALTER TABLE tablename
+    DROP UNUSED COLUMNS;
+
+    -- Insercion en varias tablas
+    DROP TABLE tablename;
+
+    FLASHBACK TABLE tablename TO BEFORE DROP;
+
+    SELECT * FROM user_recyclebin;
+
+    SELECT versions_starttime "START_DATE",
+        versions_endtime   "END_DATE",
+        column, column, ...
+    FROM   table
+        VERSIONS BETWEEN SCN MINVALUE AND MAXVALUE
+    WHERE  column = value;
+    ```
+
+- Restricciones a Nivel de Columna
+    ```sql
+    CREATE TABLE table (
+        col1 data_type CONSTRAINT tab_col1_pk PRIMARY KEY,
+        col2 data_type CONSTRAINT tab_col2_nn NOT NULL,
+        col3 data_type CONSTRAINT tab_col3_uk UNIQUE,
+        col4 data_type CONSTRAINT tab_col4_ck CHECK (col4 > value),
+        col5 data_type CONSTRAINT tab_col5 REFERENCES table2 (col1)
+    );
+    ```
+
+- Restricciones a Nivel de Tabla
+    ```sql
+    CREATE TABLE table (
+        col1 data_type,
+        col2 data_type,
+        col3 data_type,
+        col4 data_type,
+        col5 data_type,
+        CONSTRAINT tab_col1_pk PRIMARY KEY (col1),
+        CONSTRAINT tab_col3_uk UNIQUE (col2),
+        CONSTRAINT tab_col4_ck CHECK (col4 > value),
+        CONSTRAINT tab1_col5_fk FOREIGN KEY (col5) REFERENCES table2 (col1)
+    );
+    ```
+
+- Creacion y Gestion de Vistass
+    ```sql
+    CREATE [OR REPLACE] [FORCE | NOFORCE] VIEW view
+        [(alias [, alias]...)] AS subquery
+        [WITH CHECK OPTION [CONSTRAINT constraint]]
+        [WITH READ ONLY   [CONSTRAINT constraint]];
+
+    DROP VIEW viewname;
+    ```
+
+- Analisis de N Principales
+    ```sql
+    SELECT ROWNUM AS RANK, col1, col2
+    FROM (
+        SELECT col1, col2
+        FROM table1
+        ORDER BY col1
+    )
+    WHERE ROWNUM <= n;
+    ```
+
+- Vistas en Linea
+    ```sql
+    SELECT t1.col1, t2.col2, ...
+    FROM table1 t1,
+        (SELECT col1, col2, ...
+        FROM table2
+        WHERE ...) t2
+    WHERE ...;
+    ```
+
+- Creacion de Secuencias
+    ```sql
+    CREATE SEQUENCE sequence
+        [INCREMENT BY n]
+        [START WITH n]
+        [{MAXVALUE n | NOMAXVALUE}]
+        [{MINVALUE n | NOMINVALUE}]
+        [{CYCLE | NOCYCLE}]
+        [{CACHE n | NOCACHE}];
+
+    DROP SEQUENCE sequence_name;
+    ```
+
+- Creacion de Indices y Sinonimos
+    ```sql
+    CREATE INDEX index_name
+    ON table_name (column, ..., column);
+
+    DROP INDEX index_name;
+
+    CREATE [PUBLIC] SYNONYM synonym
+    FOR object;
+
+    DROP [PUBLIC] SYNONYM name_of_synonym;
+    ```
+
+- Creacion y Revocacion de Privilegios de Objeto
+    ```sql
+    CREATE USER user
+    IDENTIFIED BY password;
+
+    GRANT privilege [, privilege...]
+    TO user [, user | role | PUBLIC...];
+
+    ALTER USER user
+    IDENTIFIED BY password;
+
+    --
+    CREATE ROLE role_name;
+
+    GRANT object_priv [(column_list)]
+    ON object_name
+    TO {user | role | PUBLIC}
+    [WITH GRANT OPTION];
+
+    REVOKE {privilege [, privilege...] | ALL}
+    ON object
+    FROM {user [, user...] | role | PUBLIC}
+    [CASCADE CONSTRAINTS];
+    ```
+
+## 20 - Garantia de Consultas de Calidad Parte 2
+
+### **20-1 Garantia de Resultados de Consultas de Calidad - Tecnicas Avanzadas**
