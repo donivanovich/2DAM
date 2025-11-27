@@ -6,69 +6,74 @@
 
 - [Apuntes Oracle Academy SQL](#apuntes-oracle-academy-sql)
   - [Índice](#índice)
-  - [1 - Programación de BBDD con SQL](#1---programación-de-bbdd-con-sql)
+  - [1 - Introduccion](#1---introduccion)
     - [**1-1 Oracle APEX**](#1-1-oracle-apex)
     - [**1-2 Tecnología de Base de Datos Relacional**](#1-2-tecnología-de-base-de-datos-relacional)
     - [**1-3 Anatomía de una Sentencia SQL**](#1-3-anatomía-de-una-sentencia-sql)
-  - [2 - Programación de BBDD con SQL](#2---programación-de-bbdd-con-sql)
+  - [2 - SELECT y WHERE](#2---select-y-where)
     - [**2-1 Columnas, Caraceres y Filas**](#2-1-columnas-caraceres-y-filas)
     - [**2-2 Limitación de Filas Seleccionadas**](#2-2-limitación-de-filas-seleccionadas)
     - [**2-3 Operadores de Comparación**](#2-3-operadores-de-comparación)
-  - [3 - Programación de BBDD con SQL](#3---programación-de-bbdd-con-sql)
+  - [3 - WHERE, ORDER BY e Introduccion a las Funciones](#3---where-order-by-e-introduccion-a-las-funciones)
     - [**3-1 Comparaciones Lógicas y Reglas de Prioridad**](#3-1-comparaciones-lógicas-y-reglas-de-prioridad)
     - [**3-2 Ordenación de Filas**](#3-2-ordenación-de-filas)
     - [**3-3 Introducción a las Funciones**](#3-3-introducción-a-las-funciones)
-  - [4 - Programación de BBDD con SQL](#4---programación-de-bbdd-con-sql)
+  - [4 - Funciones de Una Sola Fila Parte 1](#4---funciones-de-una-sola-fila-parte-1)
     - [**4-1 Manipulacion de Mayúsculas/Minúsculas y de Caracteres**](#4-1-manipulacion-de-mayúsculasminúsculas-y-de-caracteres)
     - [**4-2 Funciones Numéricas**](#4-2-funciones-numéricas)
     - [**4-3 Funciones de Fecha**](#4-3-funciones-de-fecha)
-  - [5 - Programación de BBDD con SQL](#5---programación-de-bbdd-con-sql)
+  - [5 - Funciones de Una Sola Fila Parte 2](#5---funciones-de-una-sola-fila-parte-2)
     - [**5-1 Funciones de Conversión**](#5-1-funciones-de-conversión)
     - [**5-2 Funciones NULL**](#5-2-funciones-null)
     - [**5-3 Expresiones Condicionales**](#5-3-expresiones-condicionales)
-  - [6 - Programación de BBDD con SQL](#6---programación-de-bbdd-con-sql)
+  - [6 - JOIN Parte 1](#6---join-parte-1)
     - [**6-1 Uniones Cruzadas y Uniones Naturales**](#6-1-uniones-cruzadas-y-uniones-naturales)
     - [**6-2 Cláusulas Join**](#6-2-cláusulas-join)
     - [**6-3 Uniones Internas frente a Externas**](#6-3-uniones-internas-frente-a-externas)
     - [**6-4 Autouniones y Consultas Jerárquicas**](#6-4-autouniones-y-consultas-jerárquicas)
-  - [7 - Programación de BBDD con SQL](#7---programación-de-bbdd-con-sql)
+  - [7 - JOIN Parte 2](#7---join-parte-2)
     - [**7-1 Unión Igualitaria y Producto Cartesiano de Oracle**](#7-1-unión-igualitaria-y-producto-cartesiano-de-oracle)
     - [**7-2 Uniones No Igualitarias y Uniones Externas de Oracle**](#7-2-uniones-no-igualitarias-y-uniones-externas-de-oracle)
-  - [8 - Programación de BBDD con SQL](#8---programación-de-bbdd-con-sql)
+  - [8 - Funciones de Grupo Parte 1](#8---funciones-de-grupo-parte-1)
     - [**8-1 Funciones de Grupo**](#8-1-funciones-de-grupo)
     - [**8-2 COUNT, DISTINCT, NVL**](#8-2-count-distinct-nvl)
-  - [9 - Programación de BBDD con SQL](#9---programación-de-bbdd-con-sql)
+  - [9 - Funciones de Grupo Parte 2](#9---funciones-de-grupo-parte-2)
     - [**9-1 Uso de las Cláusulas GROUP BY y HAVING**](#9-1-uso-de-las-cláusulas-group-by-y-having)
     - [**9-2 Uso de las Operaciones Rollup y Cube, y Grouping Sets**](#9-2-uso-de-las-operaciones-rollup-y-cube-y-grouping-sets)
     - [**9-3 Uso de los Operadores SET**](#9-3-uso-de-los-operadores-set)
-  - [10 - Programación de BBDD con SQL](#10---programación-de-bbdd-con-sql)
+  - [10 - Subconsultas](#10---subconsultas)
     - [**10-1 Conceptos Fundamentales de las Subconsultas**](#10-1-conceptos-fundamentales-de-las-subconsultas)
     - [**10-2 Subconsultas de Una Sola Fila**](#10-2-subconsultas-de-una-sola-fila)
     - [**10-3 Subconsultas de Varias Filas**](#10-3-subconsultas-de-varias-filas)
     - [**10-4 Subconsultas Correlacionadas**](#10-4-subconsultas-correlacionadas)
-  - [12 - Programación de BBDD con SQL](#12---programación-de-bbdd-con-sql)
+  - [12 - DML](#12---dml)
     - [**12-1 Sentencias INSERT**](#12-1-sentencias-insert)
     - [**12-2 Actualizacion de Valores de Columnas y Supresion de Filas**](#12-2-actualizacion-de-valores-de-columnas-y-supresion-de-filas)
     - [**12-3 Valores DEFAULT, MERGE e Inserciones en Varias Tablas**](#12-3-valores-default-merge-e-inserciones-en-varias-tablas)
-  - [13 - Programación de BBDD con SQL](#13---programación-de-bbdd-con-sql)
+  - [13 - DDL](#13---ddl)
     - [**13-1 Creacion de Tablas**](#13-1-creacion-de-tablas)
     - [**13-2 Uso de Tipos de Dato**](#13-2-uso-de-tipos-de-dato)
     - [**13-3 Modificacion de una Tabla**](#13-3-modificacion-de-una-tabla)
-  - [14 - Programación de BBDD con SQL](#14---programación-de-bbdd-con-sql)
+  - [14 - Restricciones](#14---restricciones)
     - [**14-1 Introduccion a las Restricciones NOT NULL y UNIQUE**](#14-1-introduccion-a-las-restricciones-not-null-y-unique)
     - [**14-2 Restricciones PRIMARY KEY, FOREIGN KEY y CHECK**](#14-2-restricciones-primary-key-foreign-key-y-check)
     - [**14-3 Gestion de Restricciones**](#14-3-gestion-de-restricciones)
-  - [15 - Programación de BBDD con SQL](#15---programación-de-bbdd-con-sql)
+  - [15 - Vistas](#15---vistas)
     - [**15-1 Creacion de Vistas**](#15-1-creacion-de-vistas)
     - [**15-2 Operaciones DML y Vistas**](#15-2-operaciones-dml-y-vistas)
     - [**15-3 Gestion de Vistas**](#15-3-gestion-de-vistas)
-  - [16 - Programación de BBDD con SQL](#16---programación-de-bbdd-con-sql)
+  - [16 - Secuencias y Sinonimos](#16---secuencias-y-sinonimos)
     - [**16-1 Trabajar con Secuencias**](#16-1-trabajar-con-secuencias)
     - [**16-2 Indices y Sinonimos**](#16-2-indices-y-sinonimos)
+  - [17 - Privilegios y Expresiones Regulares](#17---privilegios-y-expresiones-regulares)
+    - [**17-1 Control de Acceso de los Usuarios**](#17-1-control-de-acceso-de-los-usuarios)
+    - [**17-2 Creacion y Revocacion de Privilegios de Objeto**](#17-2-creacion-y-revocacion-de-privilegios-de-objeto)
+    - [**17-3 Expresiones Regulares**](#17-3-expresiones-regulares)
+  - [18 - TCL](#18)
 
 
 
-## 1 - Programación de BBDD con SQL
+## 1 - Introduccion
 
 ### **1-1 Oracle APEX**
 
@@ -177,7 +182,7 @@ WHERE job_id = '1';
     FROM employees;
     ```
 
-## 2 - Programación de BBDD con SQL
+## 2 - SELECT y WHERE
 
 ### **2-1 Columnas, Caraceres y Filas**
 
@@ -282,7 +287,7 @@ FROM employees
 WHERE manager_id IS NULL;
 ```
 
-## 3 - Programación de BBDD con SQL
+## 3 - WHERE, ORDER BY e Introduccion a las Funciones
 
 ### **3-1 Comparaciones Lógicas y Reglas de Prioridad**
 
@@ -472,7 +477,7 @@ WHERE manager_id IS NULL;
         - **MIN**: busca el valor más bajo en un grupo de filas
         - **AVG**: busca el valor medio de un grupo de filas
 
-## 4 - Programación de BBDD con SQL
+## 4 - Funciones de Una Sola Fila Parte 1
 
 ### **4-1 Manipulacion de Mayúsculas/Minúsculas y de Caracteres**
 
@@ -700,7 +705,7 @@ WHERE manager_id IS NULL;
         -- Añade 60 dias a hire_date
         ```
 
-## 5 - Programación de BBDD con SQL
+## 5 - Funciones de Una Sola Fila Parte 2
 
 ### **5-1 Funciones de Conversión**
 
@@ -922,7 +927,7 @@ WHERE manager_id IS NULL;
         FROM employees;
         ```
 
-## 6 - Programación de BBDD con SQL
+## 6 - JOIN Parte 1
 
 ### **6-1 Uniones Cruzadas y Uniones Naturales**
 
@@ -1118,7 +1123,7 @@ WHERE manager_id IS NULL;
     | Hunold reports to De Haan  |
     | Ernst reports to Hunold    |
 
-## 7 - Programación de BBDD con SQL
+## 7 - JOIN Parte 2
 
 ### **7-1 Unión Igualitaria y Producto Cartesiano de Oracle**
 
@@ -1184,7 +1189,7 @@ WHERE manager_id IS NULL;
     - **FULL OUTER JOIN**
         - No es posible tener el equivalente de **FULL OUTER JOIN** mediante la adición de un signo (+), esto producira un **error**
 
-## 8 - Programación de BBDD con SQL
+## 8 - Funciones de Grupo Parte 1
 
 ### **8-1 Funciones de Grupo**
 
@@ -1256,7 +1261,7 @@ WHERE manager_id IS NULL;
         -- .0425
         ```
 
-## 9 - Programación de BBDD con SQL
+## 9 - Funciones de Grupo Parte 2
 
 ### **9-1 Uso de las Cláusulas GROUP BY y HAVING**
 
@@ -1475,7 +1480,7 @@ WHERE manager_id IS NULL;
             -- En esta consulta, el ORDER BY organiza el resultado final (ya unido por UNION) utilizando la columna employee_id
             ```
 
-## 10 - Programación de BBDD con SQL
+## 10 - Subconsultas
 
 ### **10-1 Conceptos Fundamentales de las Subconsultas**
 
@@ -1642,7 +1647,7 @@ WHERE manager_id IS NULL;
     -- Esta consulta utiliza una CTE llamada managers para listar todos los IDs de manager y luego selecciona los empleados que no gestionan a nadie
     ```
 
-## 12 - Programación de BBDD con SQL
+## 12 - DML
 
 ### **12-1 Sentencias INSERT**
 
@@ -1816,7 +1821,7 @@ SELECT * copy_employees;
     WHERE TRUNC(call_timestamp) = TRUNC(SYSDATE);
     ``` 
 
-## 13 - Programación de BBDD con SQL
+## 13 - DDL
 
 ### **13-1 Creacion de Tablas**
 
@@ -2011,7 +2016,7 @@ SELECT * copy_employees;
     WHERE employee_id = 1;
     ```
 
-## 14 - Programación de BBDD con SQL
+## 14 - Restricciones
 
 ### **14-1 Introduccion a las Restricciones NOT NULL y UNIQUE**
 
@@ -2095,7 +2100,7 @@ SELECT * copy_employees;
         ENABLE CONSTRAINT c_dept_dept_id_pk;
         ```
 
-## 15 - Programación de BBDD con SQL
+## 15 - Vistas
 
 ### **15-1 Creacion de Vistas**
 
@@ -2210,7 +2215,7 @@ SELECT * copy_employees;
     ORDER BY hire_date;
     ```
 
-## 16 - Programación de BBDD con SQL
+## 16 - Secuencias y Sinonimos
 
 ### **16-1 Trabajar con Secuencias**
 
@@ -2302,3 +2307,115 @@ VALUES
         DROP SYNONYM amy_emps;
         ```
     - La existencia de sinonimos se puede confirmar consultando la vista del diccionarios de datos **USER_SYNONYMS**
+
+## 17 - Privilegios y Expresiones Regulares
+
+### **17-1 Control de Acceso de los Usuarios**
+
+- En un entorno de varios usuarios, desea mantener la seguridad del uso y acceso a la BBDD
+    - Puede realizar los siguiente
+        1. Controlar el acceso a la base de datos
+        2. Proporcionar acceso a objetos especificos en la base de datos
+        3. Confirmar los privilegios asignados y recibidos en el diccionarios de datos de Oracle
+        4. Crear sinonimos para objetos de BBDD
+
+- La seguridad de la BBDD se puede clasificar en dos categorias:
+    1. **Seguridad del sistema**, abarca el acceso a la base de datos en el nivel del sistema, como la creacion de usuarios, nombres de usuario y contraseñas, la asignacion de espacio en disco a los usuarios y la concesion d los provilegios del sistema que los usuarios pueden llevar a cabo, como crear tablas, vistas y secuencias (Existen mas de 100 privilegios del sistema distintos)
+        ```sql
+        CREATE USER scott -- Creacion de usuario por el DBA
+        IDENTIFIED BY ur35scott;
+
+        ALTER USER scott -- Modificar el usuario
+        IDENTIFIED BY imscott35;
+
+        GRANT create session, create table, create sequence, create view -- Asignar privilegios
+        TO scott;
+        ```
+    2. **Seguridad de datos**, esta relacionada con los privilegios de objeto que abarca el acceso y el uso de los objetos de BBDD, asi como las acciones que los usuarios pueden realizar sobre los objetos (Estos privilegios incluyen poder ejecutar sentencias DML)
+
+- **Privilegios y Esquemas**
+    - Los **privilegios** son el derecho a ejecutar sentencias SQL determinadas
+        - DBA es un usuario de alto nivel con capacidad para otorgar a los usuarios acceso a la BBDD y sus objetos
+        - Los usuarios necesitan privilegios del sistema para obtener acceso a la BBDD
+        - Necesitan privilegios de objeto para manipular el contenido de los objetos de la BBDD
+    - Un **esquema** es una recopilacion de objetos, como tablas, vistas y secuencias
+        - Es propiedad de un usuarios de la base de datos y tiene el mismo nombre que el usuario
+    
+- Seguridad de Objetos, este nivel de acceso y el uso de los objetos de la BBDD asi como las acciones que los usuarios puedan realizar en dichos objetos
+    - Cada objetos tiene un juego determinado de privilegios que se pueden otorgar
+    - Puede otorgar los privilegios **UPDATE**, **REFERENCES** e **INSERT** en columnas individuales de una tabla
+        ```sql
+        GRANT UPDATE (salary)
+        ON employees TO steven_king;
+        ```
+        - Un privilegios otorgado en un sinonimo se convierte en un privilegio en la tabla base a la que hace referencia el sinonimo, es decir, es un nuevo nombre mas facil de utilizar
+
+- Un propietario de una tabla puede otorgar acceso a todos los usuarios mediante la palabra clave **PUBLIC**
+    ```sql
+    GRANT SELECT
+        ON alice.departments
+    TO PUBLIC;
+    ```
+
+### **17-2 Creacion y Revocacion de Privilegios de Objeto**
+
+- Funciones
+    - Un rol es un grupo con nombres de privilegios relacionados que se pueden otorgar a un usuarios
+    - Esto facilita la revocacion y el mantenimiento de los privilegios
+    - Un usuario puede tener acceso a diferentes roles y el mismo rol se puede asignar a diferentes usuarios
+    - El **DBA** puede asignar privilegios al rol y dicho rol a los usuarios
+        ```sql
+        CREATE ROLE manager;
+
+        GRANT create table, create view TO manager;
+
+        GRANT manager TO jennifer_cho;
+        ```
+    - Para otorgar privilegios en un objeto, el objeto debe estar en el propio esquema o debe otrogar el privilegio con **WITH GRAND OPTION**
+        - El usuario con privilegios puede transferir un privilegio que se otorga con la clausula **WITH GRANT OPTION** a otros usuarios y roles
+        ```sql
+        GRANT SELECT, INSERT
+        ON clients
+        TO scott_king
+        WITH GRANT OPTION;
+        ```
+
+    ```sql
+    GRANT SELECT
+    ON clients
+    TO PUBLIC;
+
+    GRANT UPDATE (first_name, last_name)
+    ON clients
+    TO jennifer_cho, manager;
+
+    SELECT *
+    FROM scott_king.clients;
+
+    CREATE SYNONYM clients
+    FOR scott_king.clients;
+
+    SELECT *
+    FROM clients;
+    ```
+
+- Un propietario de una tabla puede otorgar acceso a todos los usuarios mediante la palabra clave **PUBLIC**
+    ```sql
+    GRANT SELECT
+    ON jason_tsang.clients
+    TO PUBLIC;
+    ```
+
+- Puede eliminar los privilegios otorgados a otros usuarios mediante la sentencia **REVOKE**
+    - **CASCADE CONSTRAINTS** es obligatorio para eliminar todas las restricciones de integridad referenciales realizadas sobre el objeto mediante el privilegio **REFERENCES**
+    ```sql 
+    REVOKE SELECT, INSERT
+    ON clients
+    FROM scott_king;
+    ```
+
+- Un sinonimo publico lo pueden crear los administradores de la BBDD o usuarios de BBDD a los que se haya dado los privilegios para hacerlo, pero no todo el mundo puede crear automaticamente sinonimo publicos
+
+- Un **enlace de BBDD** es un puntero que define una ruta de acceso de comunicacion unidireccional de una BBDD Oracle a otra BBDD con **CREATE DATABASE LINK**
+
+### **17-3 Expresiones regulares**
