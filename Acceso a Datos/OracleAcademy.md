@@ -62,6 +62,9 @@
     - [**15-1 Creacion de Vistas**](#15-1-creacion-de-vistas)
     - [**15-2 Operaciones DML y Vistas**](#15-2-operaciones-dml-y-vistas)
     - [**15-3 Gestion de Vistas**](#15-3-gestion-de-vistas)
+  - [16 - Programación de BBDD con SQL](#16---programación-de-bbdd-con-sql)
+    - [**16-1 Trabajar con Secuencias**](#16-1-trabajar-con-secuencias)
+    - [**16-2 Indices y Sinonimos**](#16-2-indices-y-sinonimos)
 
 
 
@@ -2206,3 +2209,96 @@ SELECT * copy_employees;
     WHERE ROWNUM <= 5 -- ROWNUM: asigna un numero de fila al juego de resultados
     ORDER BY hire_date;
     ```
+
+## 16 - Programación de BBDD con SQL
+
+### **16-1 Trabajar con Secuencias**
+
+- **SEQUENCE** es un objeto que se puede compartir utilizado para generar automaticamente numeros unicos, se utiliza para crear un valor de clave primaria
+    - Ahorra tiempo porque reduce la cantidad de codigo que tiene que escribir
+    ```sql
+    CREATE SEQUENCE runner_id_seq
+        INCREMENT BY 1
+        START WITH 1
+        MAXVALUE 50000
+        NOCACHE -- Evita que los valores de SEQUENCE se almacenen en cache de memoria
+        NOCYCLE; -- Evita que la numeracion vuelva a empezar en 1 si se excede el valor 50000
+    ```
+    - Para verificar que la secuencia se ha creado consulte el diccionario de datos **USER_OBJECTS**
+    ```sql
+    SELECT sequence_name, min_value, max_value, increment_by, last_number
+    FROM user_sequences;
+    ```
+    - **SEQUENCE** tambien se puede cambiar mediante la sentencia **ALTER SEQUENCE**
+        ```sql
+        ALTER SEQUENCE runner_id_seq
+            INCREMENT BY 1
+            MAXVALUE 999999
+            NOCACHE
+            NOCYCLE;
+        ```
+    - Para eliminar una secuencia del diccionario de datos utilice la sentencia **DROP SEQUENCE**
+        ```sql
+        DROP SEQUENCE runner_id_seq;
+        ```
+
+- **NEXTVAL** se utiliza para extraer numeros de secuencia sucesivos de una secuencia especificada, al hacer referencia a sequence.NEXTVAL, se genera un nuevo numero de secuencia y el actual se sutituye en **CURRVAL**
+```sql
+INSERT INTO departments
+    (department_id, department_name, location_id)
+VALUES
+    (departments_seq.NEXTVAL, 'Support', 2500);
+```
+
+- **CURRVAL** se utiliza para hacer referencia al numero de secuencia que acaba de generar el usuario actual
+```sql
+INSERT INTO employees
+    (employee_id, department_id, ...)
+VALUES
+    (employees_seq.NEXTVAL, dept_deptid_seq.CURRVAL, ...);
+```
+
+### **16-2 Indices y Sinonimos**
+
+- Un **Indice** es un objeto de esquema que puede acelerar la recuperacion de filas mediante un puntero, se pueden crear explicita o automaticamente, su finalidad es reducir la necesidad de Entrada/Salida de disco mediante una ruta de acceso indexada para buscar datos de forma rapida
+    - Un **ROWID** es una representacion de cadena en base64 de la direccion de fila que contiene el identificador de bloque, la ubicacion de fila en el bloque y el identificador de archivo de la BBDD,
+    los indices utilizan los **ROWID** porque son la forma mas rapida para acceder a cualquier fila concreta
+    - Son logica y fisicamente independientes de la tabla que indexan, por lo que se pueden crear o borrar en cualquier momento, sin que afecten a las tablas base o a otros indices
+    - Tipos de Indices
+        - **Indice unico**, Oracle Server crea automaticamente este indice al definir una restriccion de clave **PRIMARY KEY** o **UNIQUE** en una columna de la tabla
+        - **Indice no unico** este es un indice que un usuario puede crear para acelerar el acceso a las filas
+    ```sql
+    CREATE INDEX wf_cont_reg_id_idx
+    ON wf_countries (region_id);
+    ```
+    - Un **Indice Compuesto** es un indice creado en varias columnas de una tabla y no incluye los valores nulos
+    ```sql
+    CREATE INDEX emps_name_idx
+    ON employees (first_name, last_name);
+    ```
+    - Un **Indice basado en Funciones** almacena los valores indexados y utiliza el indice basado en una sentencia **SELECT** para recuperar los datos, es decir es un indice basado en expresiones y la expresion se genera a partir de las columnas de las tablas, restricciones, funciones SQL y funciones definidas por el usuario
+        - Son utiles cuando no sabes en que caso los datos se han almacenado en la BBDD 
+        ```sql
+        CREATE INDEX upper_last_name_idx
+        ON employees (UPPER(last_name));
+
+        SELECT *
+        FROM employees
+        WHERE UPPER(last_name) = 'KING';
+        ```
+    - Para cambiar un indice, debe borrarlo y volver a crealo mediante **DROP INDEX**
+        ```sql
+        DROP INDEX upper_last_name_idx;
+        ```
+
+- **SYNONYM** es una palabra o expresion que es un sustituto aceptado de otra palabra, se utilizan para simplificar el acceso a objetos creando otro nombre para el objeto y pueden hacer referencia a una tabla propiedad de otro usuario de forma sencilla y reducir los nombres de objetos
+    - El administrador puede crear un sinonimo accesible para todos los usuarios con **CREATE PUBLIC SYNONYM**
+        ```sql
+        CREATE SYNONYM amy_emps
+        FOR amy_copy_employees;
+        ```
+    - Para eliminar un sinonimo ese **DROP SYNONYM**
+        ```sql
+        DROP SYNONYM amy_emps;
+        ```
+    - La existencia de sinonimos se puede confirmar consultando la vista del diccionarios de datos **USER_SYNONYMS**
