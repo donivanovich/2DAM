@@ -29,6 +29,7 @@ Partial Class Form1
         Me.BtnGrabar = New System.Windows.Forms.Button()
         Me.BtnLeer = New System.Windows.Forms.Button()
         Me.ChkAdmin = New System.Windows.Forms.CheckBox()
+        Me.BtnDialog = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'LbUsuario
@@ -92,11 +93,21 @@ Partial Class Form1
         Me.ChkAdmin.Text = "Administrador"
         Me.ChkAdmin.UseVisualStyleBackColor = True
         '
+        'BtnDialog
+        '
+        Me.BtnDialog.Location = New System.Drawing.Point(94, 178)
+        Me.BtnDialog.Name = "BtnDialog"
+        Me.BtnDialog.Size = New System.Drawing.Size(75, 23)
+        Me.BtnDialog.TabIndex = 7
+        Me.BtnDialog.Text = "Dialog"
+        Me.BtnDialog.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(258, 213)
+        Me.Controls.Add(Me.BtnDialog)
         Me.Controls.Add(Me.ChkAdmin)
         Me.Controls.Add(Me.BtnLeer)
         Me.Controls.Add(Me.BtnGrabar)
@@ -118,4 +129,5 @@ Partial Class Form1
     Friend WithEvents BtnGrabar As Button
     Friend WithEvents BtnLeer As Button
     Friend WithEvents ChkAdmin As CheckBox
+    Friend WithEvents BtnDialog As Button
 End Class
