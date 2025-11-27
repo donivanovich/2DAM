@@ -3,8 +3,15 @@ Public Class Form1
     Dim Admin As Byte
     Dim Usuario As String
     Dim Password As String
+    Dim DlgAbrir As New OpenFileDialog
+    Dim DlgGuardar As New SaveFileDialog
+    Dim DlgColor As New ColorDialog
+    Dim DlgFuente As New FontDialog
+    Dim DlgPrint As New PrintDialog
     Private Sub BtnGrabar_Click(sender As Object, e As EventArgs) Handles BtnGrabar.Click
-        Dim Escribir As New StreamWriter("C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Forms\Ficheros\contra3.txt", True) 'si el archivo existe se añade y si no se crea
+        DlgGuardar = New SaveFileDialog
+        DlgGuardar.ShowDialog()
+        Dim Escribir As New StreamWriter(DlgGuardar.FileName, True) 'si el archivo existe se añade y si no se crea
         Usuario = TxtUsuario.Text
         Password = TxtPass.Text
         Admin = 0
@@ -13,9 +20,12 @@ Public Class Form1
         'Escribir.WriteLine(Password)
         'Escribir.Write(Usuario & ";" & Password & "*")
         Escribir.Close()
+        DlgGuardar = Nothing
     End Sub
     Private Sub BtnLeer_Click(sender As Object, e As EventArgs) Handles BtnLeer.Click
-        Dim Leer As New StreamReader("C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\Visual Basic\Forms\Ficheros\contra3.txt", True)
+        'DlgAbrir
+        DlgAbrir.ShowDialog()
+        Dim Leer As New StreamReader(DlgAbrir.FileName, True)
         BtnLeer.Enabled = False
         Dim CarLeido As Integer
 
@@ -24,7 +34,7 @@ Public Class Form1
         'TxtUsuario.Text = Usuario
         'TxtPass.Text = Password
         CarLeido = Leer.Read
-        Do While Not (CarLeido = -1) '-1 es el salto de linea
+        Do While Not (CarLeido = -1)
             Do While Not (Chr(CarLeido) = ";")
                 TxtUsuario.Text = TxtUsuario.Text & Chr(CarLeido)
                 '  MessageBox.Show(CarLeido)
@@ -63,7 +73,12 @@ Public Class Form1
         Leer.Close()
     End Sub
 
-    Private Sub TxtPass_TextChanged(sender As Object, e As EventArgs) Handles TxtPass.TextChanged
-
+    Private Sub BtnPruebaDialog_Click(sender As Object, e As EventArgs) Handles BtnDialog.Click
+        'DlgColor.ShowDialog()
+        'MessageBox.Show(DlgColor.Color.ToString, "Colores")
+        'DlgFuente.ShowColor = True
+        'DlgFuente.ShowEffects = True
+        DlgPrint.ShowDialog()
+        'MessageBox.Show(DlgFuente.Font.ToString, "Fuente")
     End Sub
 End Class
