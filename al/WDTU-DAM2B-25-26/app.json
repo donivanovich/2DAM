@@ -1,0 +1,32 @@
+{
+  "id": "82d835e4-2246-4848-a9ea-50b6274f017b",
+  "name": "WDTU-DAM2B-25-26",
+  "publisher": "DAM2B",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
