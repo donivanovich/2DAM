@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Mi primer proyecto en BC",      //Nombre del Proyecto
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080/BC240", //URL del Servidor de Business Central
+            "serverInstance": "BC240",               //Nombre de la instancia del servidor.
+            "authentication": "UserPassword",             //Tipo de autentificacion (Windows, UserPassword, etc)
+            "startupObjectId": 22,                   //ID del objeto de inicio (pagina clientes es la 22)
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true
+        }
+    ]
+}
