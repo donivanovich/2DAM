@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\gestorobjetosperdidos\\mvvm\\model\\objetoperdido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|solutionrelative:mvvm\\model\\objetoperdido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\gestorobjetosperdidos\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|solutionrelative:fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\gestorobjetosperdidos\\datos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|solutionrelative:datos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\gestorobjetosperdidos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\gestorobjetosperdidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|GestorObjetosPerdidos.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjetoPerdido.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MVVM\\Model\\ObjetoPerdido.cs",
+              "RelativeDocumentMoniker": "MVVM\\Model\\ObjetoPerdido.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MVVM\\Model\\ObjetoPerdido.cs",
+              "RelativeToolTip": "MVVM\\Model\\ObjetoPerdido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:19:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "datos.json",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\datos.json",
+              "RelativeDocumentMoniker": "datos.json",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\datos.json",
+              "RelativeToolTip": "datos.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T16:19:16.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\FileService.cs",
+              "RelativeDocumentMoniker": "FileService.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\FileService.cs",
+              "RelativeToolTip": "FileService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:18:58.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:18:52.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\GestorObjetosPerdidos\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-02T16:18:39.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
