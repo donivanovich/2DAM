@@ -7,6 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        
+        <Button
+            Grid.Column="0"
+            x:Name="Btn_Objetos"
+            Content="Listado de Objetos"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Click="Btn_ObjetosClick"/>
 
+        <Frame
+            Grid.Column="0"
+            Grid.Row="1"
+            x:Name="MainFrame" 
+            NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
