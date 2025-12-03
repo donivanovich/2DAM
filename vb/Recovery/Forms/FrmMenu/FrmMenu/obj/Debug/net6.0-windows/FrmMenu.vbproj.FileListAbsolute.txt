@@ -1,0 +1,17 @@
+C:\VB_Net\FrmMenu\FrmMenu\bin\Debug\net6.0-windows\FrmMenu.exe
+C:\VB_Net\FrmMenu\FrmMenu\bin\Debug\net6.0-windows\FrmMenu.deps.json
+C:\VB_Net\FrmMenu\FrmMenu\bin\Debug\net6.0-windows\FrmMenu.runtimeconfig.json
+C:\VB_Net\FrmMenu\FrmMenu\bin\Debug\net6.0-windows\FrmMenu.dll
+C:\VB_Net\FrmMenu\FrmMenu\bin\Debug\net6.0-windows\FrmMenu.pdb
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.Form1.resources
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.vbproj.GenerateResource.cache
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.AssemblyInfoInputs.cache
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.AssemblyInfo.vb
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.vbproj.CoreCompileInputs.cache
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.dll
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\refint\FrmMenu.dll
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.pdb
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.genruntimeconfig.cache
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\ref\FrmMenu.dll
+C:\VB_Net\FrmMenu\FrmMenu\obj\Debug\net6.0-windows\FrmMenu.FrmCalculadora.resources

@@ -1,0 +1,17 @@
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.FrmCalculadora.resources
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.AssemblyInfoInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.AssemblyInfo.vb
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\bin\Debug\net8.0-windows\FrmCalculadora.exe
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\bin\Debug\net8.0-windows\FrmCalculadora.deps.json
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\bin\Debug\net8.0-windows\FrmCalculadora.runtimeconfig.json
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\bin\Debug\net8.0-windows\FrmCalculadora.dll
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\bin\Debug\net8.0-windows\FrmCalculadora.pdb
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.dll
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\refint\FrmCalculadora.dll
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.pdb
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.genruntimeconfig.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\ref\FrmCalculadora.dll
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\FrmCalculadora\obj\Debug\net8.0-windows\FrmCalculadora.Resources.resources
