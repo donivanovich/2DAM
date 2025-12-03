@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfAplicacionPerfilConFoto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c86d0c360668d96dd71f46541e8e5b8adbca2687")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d2c7f1e77548ab7749661f7755ea65e97b1e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfAplicacionPerfilConFoto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfAplicacionPerfilConFoto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

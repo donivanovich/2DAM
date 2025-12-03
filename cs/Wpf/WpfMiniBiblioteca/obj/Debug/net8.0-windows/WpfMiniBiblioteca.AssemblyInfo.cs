@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfMiniBiblioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a72990ed2b6d12848ffebc24b7fbf3a90d607acc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d2c7f1e77548ab7749661f7755ea65e97b1e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfMiniBiblioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfMiniBiblioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

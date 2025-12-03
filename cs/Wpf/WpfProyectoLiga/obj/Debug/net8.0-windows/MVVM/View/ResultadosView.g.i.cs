@@ -58,7 +58,7 @@ namespace WpfProyectoLiga {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfProyectoLiga;V1.0.0.0;component/mvvm/view/resultadosview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfProyectoLiga;component/mvvm/view/resultadosview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\ResultadosView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfProyectoLiga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ecae5cbb822fc717ba40cddf030da52af9f5da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d2c7f1e77548ab7749661f7755ea65e97b1e6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfProyectoLiga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfProyectoLiga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
