@@ -1,0 +1,10 @@
+bin\Debug\calculadora.exe
+bin\Debug\calculadora.pdb
+bin\Debug\calculadora.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\calculadora.FrmCalculadora.resources
+obj\Debug\calculadora.Resources.resources
+obj\Debug\calculadora.vbproj.GenerateResource.Cache
+obj\Debug\calculadora.exe
+obj\Debug\calculadora.xml
+obj\Debug\calculadora.pdb

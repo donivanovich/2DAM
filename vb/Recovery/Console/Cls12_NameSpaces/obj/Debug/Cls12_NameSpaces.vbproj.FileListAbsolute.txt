@@ -1,0 +1,12 @@
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\bin\Debug\Cls12_NameSpaces.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\bin\Debug\Cls12_NameSpaces.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\bin\Debug\Cls12_NameSpaces.pdb
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\bin\Debug\Cls12_NameSpaces.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.Resources.resources
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.pdb
+C:\Users\ivan.kosolovskyy_alu\Documents\2DAM\vb\Recovery\Console\Cls12_NameSpaces\obj\Debug\Cls12_NameSpaces.exe.config
