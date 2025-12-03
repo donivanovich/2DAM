@@ -1,0 +1,40 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using Wpf03_AgendaPersonal.MVVM.View;
+using Wpf03_AgendaPersonal.MVVM.Model;
+
+namespace Wpf03_AgendaPersonal
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Contactos());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Menu());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Citas());
+        }
+    }
+}

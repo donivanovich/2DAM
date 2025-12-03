@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf04_minibiblioteca\\imagenes\\default.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|solutionrelative:imagenes\\default.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf04_minibiblioteca\\mvvm\\view\\autores.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|solutionrelative:mvvm\\view\\autores.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf04_minibiblioteca\\mvvm\\view\\autores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|solutionrelative:mvvm\\view\\autores.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf04_minibiblioteca\\mvvm\\view\\libros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D222800-147F-4DE8-9966-794DA0C5F09B}|Wpf04_MiniBiblioteca.csproj|solutionrelative:mvvm\\view\\libros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "default.jpg - Bitmap [545x810, 24 bits, JPG]",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\imagenes\\default.jpg",
+              "RelativeDocumentMoniker": "imagenes\\default.jpg",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\imagenes\\default.jpg - Bitmap [545x810, 24 bits, JPG]",
+              "RelativeToolTip": "imagenes\\default.jpg - Bitmap [545x810, 24 bits, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-12-03T15:35:24.824Z",
+              "EditorCaption": " - Bitmap [545x810, 24 bits, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Autores.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Autores.xaml.cs",
+              "RelativeDocumentMoniker": "MVVM\\View\\Autores.xaml.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Autores.xaml.cs",
+              "RelativeToolTip": "MVVM\\View\\Autores.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T15:33:52.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libros.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Libros.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\Libros.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Libros.xaml",
+              "RelativeToolTip": "MVVM\\View\\Libros.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T15:33:36.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Autores.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Autores.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\Autores.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf04_MiniBiblioteca\\MVVM\\View\\Autores.xaml",
+              "RelativeToolTip": "MVVM\\View\\Autores.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T15:33:06.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

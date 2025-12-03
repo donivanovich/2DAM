@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf07_practicaestilos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf07_practicaestilos\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf07_practicaestilos\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2784A8CE-02F2-4D47-874D-13B20B95D475}|Wpf07_PracticaEstilos.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T19:11:05.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T19:10:15.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf07_PracticaEstilos\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T19:10:14.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

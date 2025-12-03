@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\",
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|d:\\mi unidad\\2dam\\c#\\wpf\\wpfproyectoliga\\mvvm\\viewmodel\\tablaligaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\wpfproyectoliga\\mvvm\\viewmodel\\tablaligaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|solutionrelative:mvvm\\viewmodel\\tablaligaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|d:\\mi unidad\\2dam\\c#\\wpf\\wpfproyectoliga\\mvvm\\viewmodel\\resultadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\wpfproyectoliga\\mvvm\\viewmodel\\resultadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|solutionrelative:mvvm\\viewmodel\\resultadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|d:\\mi unidad\\2dam\\c#\\wpf\\wpfproyectoliga\\mvvm\\view\\resultadosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\wpfproyectoliga\\mvvm\\view\\resultadosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|solutionrelative:mvvm\\view\\resultadosview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|d:\\mi unidad\\2dam\\c#\\wpf\\wpfproyectoliga\\mvvm\\view\\clasificacionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\2dam\\cs\\wpf\\wpfproyectoliga\\mvvm\\view\\clasificacionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CAD2A25-C8E2-4237-BFD2-017098C11D6F}|WpfProyectoLiga.csproj|solutionrelative:mvvm\\view\\clasificacionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -36,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TablaLigaViewModel.cs",
-              "DocumentMoniker": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\ViewModel\\TablaLigaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\ViewModel\\TablaLigaViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\TablaLigaViewModel.cs",
-              "ToolTip": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\ViewModel\\TablaLigaViewModel.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\ViewModel\\TablaLigaViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\TablaLigaViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ResultadoViewModel.cs",
-              "DocumentMoniker": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\ViewModel\\ResultadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\ViewModel\\ResultadoViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\ResultadoViewModel.cs",
-              "ToolTip": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\ViewModel\\ResultadoViewModel.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\ViewModel\\ResultadoViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\ResultadoViewModel.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAcwDIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -61,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ResultadosView.xaml",
-              "DocumentMoniker": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\View\\ResultadosView.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\View\\ResultadosView.xaml",
               "RelativeDocumentMoniker": "MVVM\\View\\ResultadosView.xaml",
-              "ToolTip": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\View\\ResultadosView.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\View\\ResultadosView.xaml",
               "RelativeToolTip": "MVVM\\View\\ResultadosView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-11T17:59:21.288Z"
@@ -72,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ClasificacionView.xaml",
-              "DocumentMoniker": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\View\\ClasificacionView.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\View\\ClasificacionView.xaml",
               "RelativeDocumentMoniker": "MVVM\\View\\ClasificacionView.xaml",
-              "ToolTip": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\MVVM\\View\\ClasificacionView.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\MVVM\\View\\ClasificacionView.xaml",
               "RelativeToolTip": "MVVM\\View\\ClasificacionView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-11T17:59:19.624Z"

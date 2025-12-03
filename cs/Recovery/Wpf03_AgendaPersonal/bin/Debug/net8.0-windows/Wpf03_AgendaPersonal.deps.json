@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Wpf03_AgendaPersonal/1.0.0": {
+        "runtime": {
+          "Wpf03_AgendaPersonal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wpf03_AgendaPersonal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

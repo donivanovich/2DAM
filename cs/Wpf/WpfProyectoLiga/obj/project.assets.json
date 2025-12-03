@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\WpfProyectoLiga.csproj",
+      "projectUniqueName": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\WpfProyectoLiga.csproj",
       "projectName": "WpfProyectoLiga",
-      "projectPath": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\WpfProyectoLiga.csproj",
+      "projectPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\WpfProyectoLiga.csproj",
       "packagesPath": "C:\\Users\\ivan.kosolovskyy_alu\\.nuget\\packages\\",
-      "outputPath": "D:\\Mi unidad\\2DAM\\C#\\WPF\\WpfProyectoLiga\\obj\\",
+      "outputPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\2DAM\\cs\\Wpf\\WpfProyectoLiga\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
