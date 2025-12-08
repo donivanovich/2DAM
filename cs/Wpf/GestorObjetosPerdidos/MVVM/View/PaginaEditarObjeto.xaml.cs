@@ -12,17 +12,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using GestorObjetosPerdidos.MVVM.Model;
+using GestorObjetosPerdidos.MVVM.ViewModel;
 
 namespace GestorObjetosPerdidos.MVVM.View
 {
-    /// <summary>
-    /// Lógica de interacción para PaginaEditarObjeto.xaml
-    /// </summary>
     public partial class PaginaEditarObjeto : Page
     {
-        public PaginaEditarObjeto()
+        public PaginaEditarObjeto(ObjetoPerdido objeto = null)
         {
             InitializeComponent();
+            DataContext = new EditarObjetoViewModel(objeto);
         }
     }
+
 }
