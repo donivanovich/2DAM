@@ -5,7 +5,7 @@
     "FechaHallazgo": "2025-11-28T10:30:00",
     "UbicacionHallazgo": "Estación Atocha",
     "Descripcion": "Llaves del coche Toyota Corolla plateado con llavero azul",
-    "ImagenPath": "imagenes/llaves.jpg",
+    "ImagenPath": "/imagenes/llaves.jpg",
     "Devuelto": false
   },
   {
@@ -14,7 +14,7 @@
     "FechaHallazgo": "2025-11-29T14:15:00",
     "UbicacionHallazgo": "Parque del Retiro",
     "Descripcion": "Mochila negra Nike con logo blanco, tamaño mediano",
-    "ImagenPath": "imagenes/mochila.jpg",
+    "ImagenPath": "/imagenes/mochila.jpg",
     "Devuelto": true
   },
   {
@@ -23,7 +23,7 @@
     "FechaHallazgo": "2025-12-01T09:45:00",
     "UbicacionHallazgo": "Centro comercial XYZ",
     "Descripcion": "Gafas de sol Ray-Ban modelo Wayfarer negras",
-    "ImagenPath": "imagenes/gafas.jpg",
+    "ImagenPath": "/imagenes/gafas.jpg",
     "Devuelto": false
   },
   {
@@ -32,7 +32,7 @@
     "FechaHallazgo": "2025-12-02T11:20:00",
     "UbicacionHallazgo": "Oficina Correos Madrid",
     "Descripcion": "Cartera de cuero marrón con varios documentos y dinero",
-    "ImagenPath": "imagenes/cartera.jpg",
+    "ImagenPath": "/imagenes/cartera.jpg",
     "Devuelto": false
   }
 ]

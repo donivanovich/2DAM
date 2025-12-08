@@ -1,9 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf08_GestorObjetosPerdidos\\",
+  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\wpf\\wpf08_gestorobjetosperdidos\\mvvm\\viewmodel\\objetoperdidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\datos.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:datos.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\mvvm\\view\\paginaeditarobjeto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:mvvm\\view\\paginaeditarobjeto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\mvvm\\view\\paginalistadoobjetos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:mvvm\\view\\paginalistadoobjetos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\mvvm\\model\\objetoperdido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:mvvm\\model\\objetoperdido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|c:\\users\\kosoi\\documents\\2dam\\cs\\recovery\\wpf08_gestorobjetosperdidos\\mvvm\\viewmodel\\objetoperdidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59192CE0-4F84-43A0-88B5-B30EA3BD07C9}|Wpf08_GestorObjetosPerdidos.csproj|solutionrelative:mvvm\\viewmodel\\objetoperdidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -27,12 +51,100 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "RelayCommand.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\RelayCommand.cs",
+              "RelativeToolTip": "RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:16:45.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\FileService.cs",
+              "RelativeDocumentMoniker": "FileService.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\FileService.cs",
+              "RelativeToolTip": "FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:16:42.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "datos.json",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\datos.json",
+              "RelativeDocumentMoniker": "datos.json",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\datos.json",
+              "RelativeToolTip": "datos.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T14:16:41.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T14:16:29.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObjetoPerdido.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\Model\\ObjetoPerdido.cs",
+              "RelativeDocumentMoniker": "MVVM\\Model\\ObjetoPerdido.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\Model\\ObjetoPerdido.cs",
+              "RelativeToolTip": "MVVM\\Model\\ObjetoPerdido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:12:46.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaginaListadoObjetos.xaml",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\View\\PaginaListadoObjetos.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\PaginaListadoObjetos.xaml",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\View\\PaginaListadoObjetos.xaml",
+              "RelativeToolTip": "MVVM\\View\\PaginaListadoObjetos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T14:34:37.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginaEditarObjeto.xaml",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\View\\PaginaEditarObjeto.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\PaginaEditarObjeto.xaml",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\View\\PaginaEditarObjeto.xaml",
+              "RelativeToolTip": "MVVM\\View\\PaginaEditarObjeto.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-03T14:34:32.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ObjetoPerdidoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf08_GestorObjetosPerdidos\\MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\WPF\\Wpf08_GestorObjetosPerdidos\\MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\2DAM\\cs\\Recovery\\Wpf08_GestorObjetosPerdidos\\MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\ObjetoPerdidoViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T17:31:37.704Z",
               "EditorCaption": ""
