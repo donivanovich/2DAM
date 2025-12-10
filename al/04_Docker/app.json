@@ -1,7 +1,7 @@
 {
-  "id": "1f3d8cf0-217d-4d43-a2d9-cb82202f9eba",
-  "name": "AprendeBusinessCentral",
-  "publisher": "DAM2B",
+  "id": "bbfe7c4f-674d-4d9e-b5b2-a3efe93b50e2",
+  "name": "04_Docker",
+  "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,11 +13,11 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "27.0.0.0", 
   "idRanges": [
     {
       "from": 50100,
-      "to": 50249
+      "to": 50149
     }
   ],
   "resourceExposurePolicy": {

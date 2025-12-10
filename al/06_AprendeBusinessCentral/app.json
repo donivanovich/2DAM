@@ -1,7 +1,7 @@
 {
-  "id": "293f8048-05a6-493a-a8db-53d7459f7b05",
-  "name": "ALProject2",
-  "publisher": "Default Publisher",
+  "id": "1f3d8cf0-217d-4d43-a2d9-cb82202f9eba",
+  "name": "06_AprendeBusinessCentral",
+  "publisher": "DAM2B",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,11 +13,11 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "24.0.0.0",
+  "application": "22.0.0.0",
   "idRanges": [
     {
       "from": 50100,
-      "to": 50149
+      "to": 50249
     }
   ],
   "resourceExposurePolicy": {
@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "13.0",
+  "runtime": "16.0",
   "features": [
     "NoImplicitWith"
   ]

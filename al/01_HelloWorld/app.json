@@ -1,7 +1,7 @@
 {
-  "id": "82d835e4-2246-4848-a9ea-50b6274f017b",
-  "name": "WDTU-DAM2B-25-26",
-  "publisher": "DAM2B",
+  "id": "525e805d-7457-4e6e-9c49-240a8676e7d9",
+  "name": "01_HelloWorld",
+  "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -17,7 +17,7 @@
   "idRanges": [
     {
       "from": 50100,
-      "to": 50249
+      "to": 50149
     }
   ],
   "resourceExposurePolicy": {
@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "16.0",
+  "runtime": "13.0",
   "features": [
     "NoImplicitWith"
   ]

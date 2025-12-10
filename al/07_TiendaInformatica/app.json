@@ -1,7 +1,7 @@
 {
-  "id": "bbfe7c4f-674d-4d9e-b5b2-a3efe93b50e2",
-  "name": "BCconDocker",
-  "publisher": "Default Publisher",
+  "id": "6f926de6-9b41-4649-9e7b-785691e47db0",
+  "name": "07_TiendaInformatica",
+  "publisher": "IK",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -13,11 +13,11 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "27.0.0.0", 
+  "application": "27.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50300,
+      "to": 50399
     }
   ],
   "resourceExposurePolicy": {

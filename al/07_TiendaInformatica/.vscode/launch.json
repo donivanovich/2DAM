@@ -17,6 +17,7 @@
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "usePublicURLFromServer": false,
+            "schemaUpdateMode": "ForceSync" // SI SALTA EL ERROR PONER ESTO
         }
     ]
 }
