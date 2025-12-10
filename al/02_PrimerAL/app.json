@@ -1,6 +1,6 @@
 {
-  "id": "fb966513-e1bf-4d69-91c3-07f7137ca131",
-  "name": "PruebaDocker",
+  "id": "293f8048-05a6-493a-a8db-53d7459f7b05",
+  "name": "02_PrimerAL",
   "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "27.0.0.0",
+  "application": "24.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "16.0",
+  "runtime": "13.0",
   "features": [
     "NoImplicitWith"
   ]

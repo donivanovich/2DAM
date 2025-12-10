@@ -53,7 +53,8 @@ namespace Wpf08_GestorObjetosPerdidos.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Wpf08_GestorObjetosPerdidos;component/mvvm/view/paginaeditarobjeto.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Wpf08_GestorObjetosPerdidos;V1.0.0.0;component/mvvm/view/paginaeditarobjeto.xaml" +
+                    "", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\PaginaEditarObjeto.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

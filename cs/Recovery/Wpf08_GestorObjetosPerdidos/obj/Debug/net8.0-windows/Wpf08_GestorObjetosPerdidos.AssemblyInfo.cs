@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpf08_GestorObjetosPerdidos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991108b1def9298ad1f479536b2db1231946e12c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c52bcbfc9f2a4f8197c37b8146fcc52d6f29eba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpf08_GestorObjetosPerdidos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpf08_GestorObjetosPerdidos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

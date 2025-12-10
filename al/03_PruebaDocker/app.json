@@ -1,7 +1,7 @@
 {
-  "id": "6f926de6-9b41-4649-9e7b-785691e47db0",
-  "name": "TiendaInformaticaV01",
-  "publisher": "IK",
+  "id": "fb966513-e1bf-4d69-91c3-07f7137ca131",
+  "name": "03_PruebaDocker",
+  "publisher": "Default Publisher",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -16,8 +16,8 @@
   "application": "27.0.0.0",
   "idRanges": [
     {
-      "from": 50300,
-      "to": 50399
+      "from": 50100,
+      "to": 50149
     }
   ],
   "resourceExposurePolicy": {

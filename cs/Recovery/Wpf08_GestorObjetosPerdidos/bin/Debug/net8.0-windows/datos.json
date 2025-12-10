@@ -6,7 +6,7 @@
     "UbicacionHallazgo": "Estaci\uFFFDn Atocha",
     "Descripcion": "Llaves del coche Toyota Corolla plateado con llavero azul",
     "ImagenPath": "/imagenes/llaves.jpg",
-    "Devuelto": false
+    "Devuelto": true
   },
   {
     "Nombre": "Mochila Nike",
@@ -36,11 +36,11 @@
     "Devuelto": false
   },
   {
-    "Nombre": null,
-    "Categoria": null,
-    "FechaHallazgo": "2025-12-08T15:16:55.3812776+01:00",
-    "UbicacionHallazgo": null,
-    "Descripcion": null,
+    "Nombre": "dwa",
+    "Categoria": "Documentos",
+    "FechaHallazgo": "2025-12-10T16:22:59.779291+01:00",
+    "UbicacionHallazgo": "daw",
+    "Descripcion": "daw",
     "ImagenPath": null,
     "Devuelto": true
   }
