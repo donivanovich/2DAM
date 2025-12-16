@@ -9,7 +9,7 @@
     Comprobar policy de ejecución de scripts:
     Get-ExecutionPolicy
     Si está restringida la ejecución de scripts:
-    Set-ExecutionPolicy Unrestricted
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Instalar dependencias
 - Activar venv

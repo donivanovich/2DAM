@@ -71,3 +71,17 @@ def ejercicio5() -> None:
     }
     result = requests.post(f'{API_BASE}todos', json=new_todo, headers=headers)
     print(result.json())
+
+if __name__ == "__main__":
+    # ejemplo: ejecutar todos los ejercicios
+    ejercicio1()
+    print("Ejercicio 1 hecho")
+
+    print("Usuarios con TODO pendiente:", ejercicio2())
+
+    print("TLDs distintos:", ejercicio3())
+
+    ejercicio4()
+    print("Ejercicio 4 hecho")
+
+    ejercicio5()   # esta ya hace un print del resultado
