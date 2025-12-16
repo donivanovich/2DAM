@@ -31,8 +31,6 @@ class CustomerRepository():
                 address_id = address_id, 
                 create_date=datetime.datetime.now()
             )
-
             session.add(customer)
             session.commit()
-
             return customer.customer_id

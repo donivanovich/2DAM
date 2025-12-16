@@ -18,24 +18,15 @@ engine = create_engine(
 Base.metadata.create_all(engine)
 
 class RentalRepository():
-
     def getRentalsByCustomerId(id):
-
         with Session(engine) as session:
-
             return session.query(Rental).filter_by(customer_id=id).all()
 
-
     def createRental(customer_id, inventory_id, staff_id):
-
         with Session(engine) as session:
-
             rental = Rental(customer_id=customer_id, inventory_id=inventory_id, staff_id=staff_id, rental_date=datetime.datetime.now())
-
             session.add(rental)
-
             session.commit()
-
             return rental.rental_id
     
     def deleteRental(rental_id):
