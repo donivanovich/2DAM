@@ -1,13 +1,6 @@
 ﻿Imports System.ComponentModel
 
 Public Class FrmIntroducirDatosPersonales
-    Private Sub FrmCrearAlumno_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Dim res As Integer
-        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If res = vbNo Then
-            e.Cancel = True
-        End If
-    End Sub
     Public Property listaAlumnos As List(Of Alum)
         Get
             Return alumnos
@@ -18,7 +11,6 @@ Public Class FrmIntroducirDatosPersonales
     End Property
 
     Private alumnos As List(Of Alum)
-
     Private Sub FrmCrearAlumno_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ComboBoxAlumnos.Items.Clear()
         For i As Integer = 0 To listaAlumnos.Count - 1
@@ -48,6 +40,14 @@ Public Class FrmIntroducirDatosPersonales
             Me.Close()
         Else
             MessageBox.Show("Selecciona un alumno")
+        End If
+    End Sub
+
+    Private Sub FrmCrearAlumno_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim res As Integer
+        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If res = vbNo Then
+            e.Cancel = True
         End If
     End Sub
 End Class

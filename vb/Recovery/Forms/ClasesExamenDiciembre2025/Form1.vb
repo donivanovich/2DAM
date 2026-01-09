@@ -39,25 +39,25 @@ Public Class Form1
 
     'LISTADO'
     Private Sub ListarDatosPersonalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListarDatosPersonalesToolStripMenuItem.Click
-        Dim frmLista As New FrmListadoAlumnos()
-        frmLista.ListaAlumnosGlobal = listaAlumnos
-        frmLista.ShowDialog()
+        Dim form As New FrmListadoAlumnos()
+        form.ListaAlumnosGlobal = listaAlumnos
+        form.Show()
     End Sub
 
     Private Sub ListarAsignaturasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListarAsignaturasToolStripMenuItem.Click
-        Dim frmDNI As New FrmListadoAsignaturas()
-        frmDNI.ListaAlumnosGlobal = listaAlumnos
-        frmDNI.ShowDialog()
+        Dim form As New FrmListadoAsignaturas()
+        form.ListaAlumnosGlobal = listaAlumnos
+        form.Show()
     End Sub
     Private Sub ListasDatosBancariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListasDatosBancariosToolStripMenuItem.Click
-        Dim frmIBAN As New FrmListadoDatosBancarios()
-        frmIBAN.ListaAlumnosGlobal = listaAlumnos
-        frmIBAN.ShowDialog()
+        Dim form As New FrmListadoDatosBancarios()
+        form.ListaAlumnosGlobal = listaAlumnos
+        form.Show()
     End Sub
     Private Sub ListarNotasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListarNotasToolStripMenuItem.Click
-        Dim frmIBAN As New FrmListadoNotas()
-        frmIBAN.ListaAlumnosGlobal = listaAlumnos
-        frmIBAN.ShowDialog()
+        Dim form As New FrmListadoNotas()
+        form.ListaAlumnosGlobal = listaAlumnos
+        form.Show()
     End Sub
 
     'HERRAMIENTAS Y SALIR'

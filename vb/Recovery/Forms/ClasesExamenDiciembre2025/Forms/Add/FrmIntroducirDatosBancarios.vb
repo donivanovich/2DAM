@@ -11,13 +11,7 @@ Public Class FrmIntroducirDatosBancarios
             CargarComboAlumnos()
         End Set
     End Property
-    Private Sub FrmIntroducirDatosBancarios_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Dim res As Integer
-        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If res = vbNo Then
-            e.Cancel = True
-        End If
-    End Sub
+
     Private alumnos As List(Of Alum)
     Private Sub FrmIntroducirDatosBancarios_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarComboAlumnos()
@@ -51,6 +45,14 @@ Public Class FrmIntroducirDatosBancarios
             TextBoxIban.Focus()
         Else
             MessageBox.Show("Selecciona un alumno")
+        End If
+    End Sub
+
+    Private Sub FrmIntroducirDatosBancarios_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim res As Integer
+        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If res = vbNo Then
+            e.Cancel = True
         End If
     End Sub
 End Class

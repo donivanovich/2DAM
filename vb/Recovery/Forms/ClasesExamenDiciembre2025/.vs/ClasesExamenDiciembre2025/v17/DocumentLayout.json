@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\",
+  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\downloads\\clasesexamendiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\documents\\github\\2dam\\vb\\recovery\\forms\\clasesexamendiciembre2025\\forms\\add\\frmintroducirnotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\add\\frmintroducirnotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\documents\\github\\2dam\\vb\\recovery\\forms\\clasesexamendiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\downloads\\clasesexamendiciembre2025\\forms\\tools\\frmconversornotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\tools\\frmconversornotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\downloads\\clasesexamendiciembre2025\\forms\\tools\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\tools\\frmcalculadora.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\downloads\\clasesexamendiciembre2025\\forms\\lists\\frmlistadoalumnos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\lists\\frmlistadoalumnos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\forms\\lists\\frmlistadoasignaturas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\lists\\frmlistadoasignaturas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\forms\\lists\\frmlistadodatosbancarios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\lists\\frmlistadodatosbancarios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\forms\\lists\\frmlistadonotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\lists\\frmlistadonotas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-05T23:15:11.929Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -47,87 +41,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Title": "FrmIntroducirNotas.vb",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirNotas.vb",
+              "RelativeDocumentMoniker": "Forms\\Add\\FrmIntroducirNotas.vb",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirNotas.vb",
+              "RelativeToolTip": "Forms\\Add\\FrmIntroducirNotas.vb",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:15:11.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmCalculadora.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Tools\\FrmCalculadora.vb",
-              "RelativeDocumentMoniker": "Forms\\Tools\\FrmCalculadora.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Tools\\FrmCalculadora.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\Tools\\FrmCalculadora.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:14:10.682Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmConversorNotas.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Tools\\FrmConversorNotas.vb",
-              "RelativeDocumentMoniker": "Forms\\Tools\\FrmConversorNotas.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Tools\\FrmConversorNotas.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Forms\\Tools\\FrmConversorNotas.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:13:50.785Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmListadoNotas.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoNotas.vb",
-              "RelativeDocumentMoniker": "Forms\\Lists\\FrmListadoNotas.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoNotas.vb",
-              "RelativeToolTip": "Forms\\Lists\\FrmListadoNotas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:05:17.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmListadoDatosBancarios.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoDatosBancarios.vb",
-              "RelativeDocumentMoniker": "Forms\\Lists\\FrmListadoDatosBancarios.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoDatosBancarios.vb",
-              "RelativeToolTip": "Forms\\Lists\\FrmListadoDatosBancarios.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:05:16.211Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmListadoAsignaturas.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoAsignaturas.vb",
-              "RelativeDocumentMoniker": "Forms\\Lists\\FrmListadoAsignaturas.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoAsignaturas.vb",
-              "RelativeToolTip": "Forms\\Lists\\FrmListadoAsignaturas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:05:12.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmListadoAlumnos.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoAlumnos.vb",
-              "RelativeDocumentMoniker": "Forms\\Lists\\FrmListadoAlumnos.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Downloads\\ClasesExamenDiciembre2025\\Forms\\Lists\\FrmListadoAlumnos.vb",
-              "RelativeToolTip": "Forms\\Lists\\FrmListadoAlumnos.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-05T23:05:09.593Z",
+              "WhenOpened": "2026-01-09T12:18:17.677Z",
               "EditorCaption": ""
             }
           ]
