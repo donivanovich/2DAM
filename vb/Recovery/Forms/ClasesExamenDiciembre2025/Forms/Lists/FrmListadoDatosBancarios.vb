@@ -11,7 +11,7 @@
         End Set
     End Property
 
-    Private Sub FrmListadoDNIIBAN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub FrmListadoDatosBancarios_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarListado()
     End Sub
 

@@ -1,14 +1,6 @@
 ﻿Imports System.ComponentModel
 
 Public Class FrmIntroducirNotas
-    Private Sub FrmIntroducirNotas_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Dim res As Integer
-        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If res = vbNo Then
-            e.Cancel = True
-        End If
-    End Sub
-
     Public Property listaAlumnos As List(Of Alum)
         Get
             Return alumnos
@@ -62,7 +54,6 @@ Public Class FrmIntroducirNotas
             Dim indiceAlumno As Integer = ComboBoxAlumnos.SelectedIndex
             Dim alumno As Alum = alumnos(indiceAlumno)
 
-            ' Asegurar Nota
             If alumno.Nota Is Nothing Then
                 alumno.Nota = New Nota()
             End If
@@ -79,6 +70,14 @@ Public Class FrmIntroducirNotas
             TextBoxNota.Focus()
         Else
             MessageBox.Show("Selecciona alumno y asignatura")
+        End If
+    End Sub
+
+    Private Sub FrmIntroducirNotas_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim res As Integer
+        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If res = vbNo Then
+            e.Cancel = True
         End If
     End Sub
 End Class
