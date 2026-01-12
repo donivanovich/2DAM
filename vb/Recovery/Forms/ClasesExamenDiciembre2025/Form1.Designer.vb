@@ -40,6 +40,7 @@ Partial Class Form1
         Me.CalculadoraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConversorDeNotaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ButtonContador = New System.Windows.Forms.Button()
         Me.MenuStrip3.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -75,9 +76,9 @@ Partial Class Form1
         Me.CreacionToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.CreacionToolStripMenuItem.Text = "Creacion"
         '
-        'CrearAlumnoToolStripMenuItem1
+        'CrearAlumnoToolStripMenuItem
         '
-        Me.CrearAlumnoToolStripMenuItem.Name = "CrearAlumnoToolStripMenuItem1"
+        Me.CrearAlumnoToolStripMenuItem.Name = "CrearAlumnoToolStripMenuItem"
         Me.CrearAlumnoToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
         Me.CrearAlumnoToolStripMenuItem.Text = "Crear Alumno"
         '
@@ -161,11 +162,21 @@ Partial Class Form1
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
+        'ButtonContador
+        '
+        Me.ButtonContador.Location = New System.Drawing.Point(682, 415)
+        Me.ButtonContador.Name = "ButtonContador"
+        Me.ButtonContador.Size = New System.Drawing.Size(106, 23)
+        Me.ButtonContador.TabIndex = 3
+        Me.ButtonContador.Text = "Contar Asignaturas"
+        Me.ButtonContador.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ButtonContador)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.MenuStrip2)
         Me.Controls.Add(Me.MenuStrip3)
@@ -197,4 +208,5 @@ Partial Class Form1
     Friend WithEvents ListarAsignaturasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ListasDatosBancariosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ListarNotasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ButtonContador As Button
 End Class
