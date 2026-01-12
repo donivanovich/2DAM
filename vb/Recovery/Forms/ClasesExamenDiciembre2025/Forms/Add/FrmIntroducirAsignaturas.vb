@@ -2,6 +2,13 @@
 
 Public Class FrmIntroducirAsignaturas
     Private asignatura As Academico
+    Private Sub FrmIntroducirAsignaturas_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Dim res As Integer
+        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If res = vbNo Then
+            e.Cancel = True
+        End If
+    End Sub
     Public Property listaAlumnos As List(Of Alum)
         Get
             Return alumnos
@@ -12,7 +19,6 @@ Public Class FrmIntroducirAsignaturas
         End Set
     End Property
 
-    Private alumnos As List(Of Alum)
     Private Sub FrmIntroducirAsignaturas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarComboAlumnos()
     End Sub
@@ -29,11 +35,13 @@ Public Class FrmIntroducirAsignaturas
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private alumnos As List(Of Alum)
+    Private Sub ButtonAnnadir_Click(sender As Object, e As EventArgs) Handles ButtonAnnadir.Click
         If alumnos IsNot Nothing AndAlso alumnos.Count > 0 AndAlso ComboBoxAlumnos.SelectedIndex >= 0 Then
             Dim indice As Integer = ComboBoxAlumnos.SelectedIndex
             Dim alumnoSeleccionado As Alum = alumnos(indice)
 
+            ' Asegurar que tiene Academico
             If alumnoSeleccionado.Asignaturas Is Nothing Then
                 alumnoSeleccionado.Asignaturas = New Academico()
             End If
@@ -46,14 +54,6 @@ Public Class FrmIntroducirAsignaturas
             TextBoxAsignatura.Focus()
         Else
             MessageBox.Show("Selecciona un alumno")
-        End If
-    End Sub
-
-    Private Sub FrmIntroducirAsignaturas_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        Dim res As Integer
-        res = MessageBox.Show("¿Desea Salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If res = vbNo Then
-            e.Cancel = True
         End If
     End Sub
 End Class

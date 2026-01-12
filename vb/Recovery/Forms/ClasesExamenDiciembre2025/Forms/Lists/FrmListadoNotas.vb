@@ -11,7 +11,7 @@
         End Set
     End Property
 
-    Private Sub FrmListadoNotas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub FrmListadoNotasAsignaturas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarListado()
     End Sub
 

@@ -1,8 +1,0 @@
-DNI: 60255621Z
-Nombre: Ivan
-Apellido1: Kosolovskyy
-Apellido2: Fetsyk
-Nacimiento: 28/03/2006
-Domicilio: c/ Benimamet 49 4D
-Telefono: 674963168
----

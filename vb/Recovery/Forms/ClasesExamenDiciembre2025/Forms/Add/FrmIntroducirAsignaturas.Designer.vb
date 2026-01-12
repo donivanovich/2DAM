@@ -23,7 +23,7 @@ Partial Class FrmIntroducirAsignaturas
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TextBoxAsignatura = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ButtonAnnadir = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBoxAlumnos = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -38,12 +38,12 @@ Partial Class FrmIntroducirAsignaturas
         '
         'ButtonAnnadir
         '
-        Me.Button1.Location = New System.Drawing.Point(359, 156)
-        Me.Button1.Name = "ButtonAnnadir"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Aceptar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonAnnadir.Location = New System.Drawing.Point(359, 156)
+        Me.ButtonAnnadir.Name = "ButtonAnnadir"
+        Me.ButtonAnnadir.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonAnnadir.TabIndex = 1
+        Me.ButtonAnnadir.Text = "Aceptar"
+        Me.ButtonAnnadir.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -79,7 +79,7 @@ Partial Class FrmIntroducirAsignaturas
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ComboBoxAlumnos)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ButtonAnnadir)
         Me.Controls.Add(Me.TextBoxAsignatura)
         Me.Name = "FrmIntroducirAsignaturas"
         Me.Text = "Introducir Asignaturas"
@@ -89,7 +89,7 @@ Partial Class FrmIntroducirAsignaturas
     End Sub
 
     Friend WithEvents TextBoxAsignatura As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ButtonAnnadir As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents ComboBoxAlumnos As ComboBox
     Friend WithEvents Label2 As Label
