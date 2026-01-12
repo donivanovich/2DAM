@@ -1,4 +1,5 @@
-﻿Public Class FrmListadoDatosBancarios
+﻿Imports ClasesExamenDiciembre2025.ClaseExamenDiciembre2025
+Public Class FrmListadoDatosBancarios
     Private listaAlumnos As List(Of Alum)
 
     Public Property ListaAlumnosGlobal As List(Of Alum)

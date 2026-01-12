@@ -1,15 +1,17 @@
-﻿Public Class DatosBancarios
-    Private _iban As String
+﻿Namespace ClaseExamenDiciembre2025
+    Public Class DatosBancarios
+        Private _iban As String
 
-    Public Property IBAN As String
-        Get
-            Return _iban
-        End Get
-        Set(value As String)
-            _iban = value
-        End Set
-    End Property
+        Public Property IBAN As String
+            Get
+                Return _iban
+            End Get
+            Set(value As String)
+                _iban = value
+            End Set
+        End Property
 
-    Public Sub New()
-    End Sub
-End Class
+        Public Sub New()
+        End Sub
+    End Class
+End Namespace

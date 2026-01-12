@@ -1,4 +1,5 @@
 ﻿Imports System.ComponentModel
+Imports ClasesExamenDiciembre2025.ClaseExamenDiciembre2025
 
 Public Class FrmIntroducirDatosBancarios
     Private datosBancarios As DatosBancarios
