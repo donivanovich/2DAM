@@ -1,5 +1,6 @@
 ﻿Imports System.ComponentModel
 Imports System.IO
+Imports ClasesExamenDiciembre2025.ClaseExamenDiciembre2025
 
 Public Class Form1
     Dim DlgGuardar As New SaveFileDialog
@@ -14,24 +15,44 @@ Public Class Form1
     End Sub
 
     Private Sub IntroducirDatosPersonalesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IntroducirDatosPersonalesToolStripMenuItem.Click
+        If listaAlumnos.Count = 0 Then
+            MessageBox.Show("No hay alumnos")
+            Return
+        End If
+
         Dim form As New FrmIntroducirDatosPersonales()
         form.listaAlumnos = listaAlumnos
         form.Show()
     End Sub
 
     Private Sub IntroducirAsignaturasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IntroducirAsignaturasToolStripMenuItem.Click
+        If listaAlumnos.Count = 0 Then
+            MessageBox.Show("No hay alumnos")
+            Return
+        End If
+
         Dim form As New FrmIntroducirAsignaturas()
         form.listaAlumnos = listaAlumnos
         form.Show()
     End Sub
 
     Private Sub IntroducirDatosBancariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IntroducirDatosBancariosToolStripMenuItem.Click
+        If listaAlumnos.Count = 0 Then
+            MessageBox.Show("No hay alumnos")
+            Return
+        End If
+
         Dim form As New FrmIntroducirDatosBancarios()
         form.listaAlumnos = listaAlumnos
         form.Show()
     End Sub
 
     Private Sub IntroducirNotasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IntroducirNotasToolStripMenuItem.Click
+        If listaAlumnos.Count = 0 Then
+            MessageBox.Show("No hay alumnos")
+            Return
+        End If
+
         Dim form As New FrmIntroducirNotas()
         form.listaAlumnos = listaAlumnos
         form.Show()
@@ -76,7 +97,7 @@ Public Class Form1
     End Sub
 
     Private Sub ButtonContador_Click(sender As Object, e As EventArgs) Handles ButtonContador.Click
-        Dim texto As String = "CONTEO DE ASIGNATURAS:" & vbCrLf
+        Dim texto As String = ""
 
         If listaAlumnos IsNot Nothing AndAlso listaAlumnos.Count > 0 Then
             For Each alu As Alum In listaAlumnos
@@ -98,7 +119,7 @@ Public Class Form1
             texto += "No hay alumnos"
         End If
 
-        MessageBox.Show(texto, "Contador de Asignaturas", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show(texto, "Contador de Asignaturas", MessageBoxButtons.OK)
     End Sub
 
     Private Sub Form1_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing

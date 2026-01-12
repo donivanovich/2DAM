@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\ClasesExamenDiciembre2025\\",
+  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\ivan.kosolovskyy_alu\\desktop\\clasesexamendiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\kosoi\\documents\\github\\2dam\\vb\\recovery\\forms\\clasesexamendiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -28,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\ClasesExamenDiciembre2025\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Desktop\\ClasesExamenDiciembre2025\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Recovery\\Forms\\ClasesExamenDiciembre2025\\Form1.vb*",
+              "RelativeToolTip": "Form1.vb*",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswHkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-08T16:16:57.956Z",
+              "WhenOpened": "2026-01-12T21:36:52.46Z",
               "EditorCaption": ""
             }
           ]

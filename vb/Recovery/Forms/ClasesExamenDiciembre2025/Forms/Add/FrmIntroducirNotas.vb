@@ -1,4 +1,5 @@
 ﻿Imports System.ComponentModel
+Imports ClasesExamenDiciembre2025.ClaseExamenDiciembre2025
 
 Public Class FrmIntroducirNotas
     Private Sub FrmIntroducirNotas_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
