@@ -34,8 +34,26 @@ Public Class FrmIntroducirDatosPersonales
         If listaAlumnos IsNot Nothing AndAlso listaAlumnos.Count > 0 AndAlso ComboBoxAlumnos.SelectedIndex >= 0 Then
             Dim indice As Integer = ComboBoxAlumnos.SelectedIndex
             Dim alumno As Alum = listaAlumnos(indice)
+            Dim textoDni As String = TextBoxDni.Text.Trim()
+            Dim numeros As String = ""
+            Dim dniCompleto As String
 
-            alumno.DNI = TextBoxDni.Text
+            For Each c As Char In textoDni
+                If Char.IsDigit(c) Then numeros += c
+                If numeros.Length = 8 Then Exit For
+            Next
+
+            If numeros.Length = 8 Then
+                Dim num As Integer = Integer.Parse(numeros)
+                Dim resto As Integer = num Mod 23
+                Dim listaLetras As String = "TRWAGMYFPDXBNJZSQVHLCKE"
+                Dim letra As Char = listaLetras(resto)
+                dniCompleto = numeros & letra
+            Else
+                dniCompleto = textoDni
+            End If
+
+            alumno.DNI = dniCompleto
             alumno.Nombre = TextNombre.Text
             alumno.Apellido1 = TextApellido1.Text
             alumno.Apellido2 = TextBoxApellido2.Text
