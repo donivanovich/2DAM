@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|c:\\users\\ivan.kosolovskyy_alu\\downloads\\exameneval1\\taskmanagerdam\\taskmanagerdam\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|solutionrelative:taskmanagerdam\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|c:\\users\\ivan.kosolovskyy_alu\\downloads\\exameneval1\\taskmanagerdam\\taskmanagerdam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|solutionrelative:taskmanagerdam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|c:\\users\\ivan.kosolovskyy_alu\\downloads\\exameneval1\\taskmanagerdam\\taskmanagerdam\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|solutionrelative:taskmanagerdam\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|c:\\users\\ivan.kosolovskyy_alu\\downloads\\exameneval1\\taskmanagerdam\\taskmanagerdam\\mvvm\\model\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|solutionrelative:taskmanagerdam\\mvvm\\model\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|c:\\users\\ivan.kosolovskyy_alu\\downloads\\exameneval1\\taskmanagerdam\\taskmanagerdam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F359C28F-50E4-4211-AC60-A126E4F17966}|TaskManagerDAM\\TaskManagerDAM.csproj|solutionrelative:taskmanagerdam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\App.xaml",
+              "RelativeDocumentMoniker": "TaskManagerDAM\\App.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\App.xaml",
+              "RelativeToolTip": "TaskManagerDAM\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-10T18:12:19.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManagerDAM\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TaskManagerDAM\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T17:37:40.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MVVM\\Model\\TaskModel.cs",
+              "RelativeDocumentMoniker": "TaskManagerDAM\\MVVM\\Model\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MVVM\\Model\\TaskModel.cs",
+              "RelativeToolTip": "TaskManagerDAM\\MVVM\\Model\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T17:18:41.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TaskManagerDAM\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "TaskManagerDAM\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T17:41:07.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TaskManagerDAM\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Downloads\\ExamenEval1\\TaskManagerDAM\\TaskManagerDAM\\MainWindow.xaml",
+              "RelativeToolTip": "TaskManagerDAM\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-10T17:34:31.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
