@@ -1,0 +1,32 @@
+Imports System.Data
+Imports System.Data.OleDb
+
+Module Module1
+    Dim cn As New OleDbConnection()
+    Dim schemaTable As DataTable
+    Dim i As Integer
+
+    Sub main()
+
+        cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;" &
+                       "Data Source=C:\vbnet\BBDD\Nuevo4.accdb"
+        cn.Open()
+
+
+        schemaTable = cn.GetOleDbSchemaTable(OleDbSchemaGuid.Tables,
+                      New Object() {Nothing, Nothing, "Datos", "TABLE"})
+
+
+        For i = 0 To schemaTable.Columns.Count - 1
+            Console.WriteLine(schemaTable.Columns(i).ToString & " : " &
+               schemaTable.Rows(0).Item(i).ToString)
+        Next i
+
+
+        cn.Close()
+
+
+        Console.ReadLine()
+    End Sub
+
+End Module

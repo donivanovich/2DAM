@@ -1,0 +1,39 @@
+Imports System.Data
+Imports System.Data.OleDb
+
+Module Module1
+
+    Sub Main()
+
+
+
+
+        Dim cn As New OleDbConnection()
+        Dim schemaTable As DataTable
+        Dim i As Integer
+
+        'Conectarse a la base de datos 
+        'Asegúrese de usar una cuenta que tenga permisos para enumerar tablas.
+        cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;" &
+                       "Data Source=C:\vbnet\BBDD\Nuevo4.accdb"
+        cn.Open()
+
+        'Recuperar la información de esquema sobre tablas.
+        'Dado que las tablas incluyen tablas, vistas y otros objetos,
+        'restrinja los datos sólo a TABLE en la matriz de restricciones de objeto.
+        schemaTable = cn.GetOleDbSchemaTable(OleDbSchemaGuid.Tables,
+                      New Object() {Nothing, Nothing, Nothing, "TABLE"})
+
+        'Enumerar el nombre de tabla para cada fila de la tabla de esquema.
+        For i = 0 To schemaTable.Rows.Count - 1
+            Console.WriteLine(schemaTable.Rows(i)!TABLE_NAME.ToString)
+        Next i
+
+       
+        cn.Close()
+
+        
+        Console.ReadLine()
+    End Sub
+
+End Module
