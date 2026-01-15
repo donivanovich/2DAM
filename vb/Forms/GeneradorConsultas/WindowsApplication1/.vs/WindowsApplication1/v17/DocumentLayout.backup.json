@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\GeneradorConsultas\\WindowsApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A1C9E7-0EC6-4739-ACB9-247D7B38AC05}|WindowsApplication1.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\vb\\forms\\generadorconsultas\\windowsapplication1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{B3A1C9E7-0EC6-4739-ACB9-247D7B38AC05}|WindowsApplication1.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsApplication1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A1C9E7-0EC6-4739-ACB9-247D7B38AC05}|WindowsApplication1.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\vb\\forms\\generadorconsultas\\windowsapplication1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\GeneradorConsultas\\WindowsApplication1\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\GeneradorConsultas\\WindowsApplication1\\Form1.vb*",
+              "RelativeToolTip": "Form1.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-15T17:02:06.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowsApplication1",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\GeneradorConsultas\\WindowsApplication1\\WindowsApplication1.vbproj",
+              "RelativeDocumentMoniker": "WindowsApplication1.vbproj",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\GeneradorConsultas\\WindowsApplication1\\WindowsApplication1.vbproj",
+              "RelativeToolTip": "WindowsApplication1.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-15T17:01:46.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
