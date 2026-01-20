@@ -28,8 +28,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.ui.text.style.TextAlign
 import com.mrh.listarcontactos.ui.theme.ListarContactosTheme
+import java.math.BigInteger
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +51,16 @@ class MainActivity : ComponentActivity() {
 fun HomeView(modifier: Modifier = Modifier) {
 
     val listaNombres = remember { mutableStateListOf("Pepe", "Almudena", "Alberto","Pepe", "Almudena", "Alberto") }
+    var listaContactos = remember {
+        mutableStateListOf(
+            Contacto(
+                nombre = "Ivan",
+                apellidos = "Kosolovskyy",
+                email = "ivan@gmail.com",
+                telefono = BigInteger("666666666")
+            )
+        )
+    }
     var inputText by remember { mutableStateOf("") }
 
     /*
@@ -117,6 +129,31 @@ fun HomeView(modifier: Modifier = Modifier) {
                     textAlign = TextAlign.Center
                 )
             }
+        }
+
+        items(items = listaContactos) { contacto ->
+
+                Button(
+
+                    onClick = {
+                        val nuevoContacto = Contacto(
+                            nombre = "Ivan",
+                            apellidos = "Kosolovskyy",
+                            email = "ivan@gmail.com",
+                            telefono = BigInteger("666666666")
+                        )
+                        listaContactos.add(nuevoContacto)
+                    }
+                ) {
+                    Text(
+                        text = contacto.nombre,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(20.dp),
+                        textAlign = TextAlign.Center
+                    )
+                }
+
         }
     }
 }
