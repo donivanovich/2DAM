@@ -29,6 +29,12 @@ namespace Wpf10_Shawarmas
         {
             username = TxtUsername.Text;
             password = PwdPassword.Password;
+
+            if (username == "donnie" && password == "1234"){
+                ViewMainMenu mainmenuWindow = new ViewMainMenu();
+                mainmenuWindow.Show();
+                this.Close();
+            }
         }
 
         private void BtnSignUp_Click(object sender, RoutedEventArgs e)
