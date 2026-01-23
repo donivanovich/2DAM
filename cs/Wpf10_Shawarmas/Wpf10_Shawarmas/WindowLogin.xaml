@@ -11,10 +11,9 @@
         Title="Login" Height="300" Width="475">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="7*"/>
             <ColumnDefinition Width="36*"/>
-            <ColumnDefinition Width="170*"/>
-            <ColumnDefinition Width="170*"/>
+            <ColumnDefinition Width="170*"/> <!--Logo-->
+            <ColumnDefinition Width="170*"/> <!--Login Controls-->
             <ColumnDefinition Width="43*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
@@ -25,31 +24,29 @@
 
         <Image 
             Grid.Column="1"
-            Source="/res/logo.png" 
-            Grid.ColumnSpan="2" 
-            Margin="35,43,0,43" 
-            Grid.RowSpan="3"/>
+            Grid.Row="1"
+            Source="/res/logo.png"/> <!--Logo-->
 
         <Grid
             Grid.Row="1"
-            Grid.Column="3"
+            Grid.Column="2"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Width="Auto">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/> <!--Label Username-->
+                <RowDefinition Height="Auto"/> <!--Textbox Username-->
+                <RowDefinition Height="Auto"/> <!--Label Password-->
+                <RowDefinition Height="Auto"/> <!--PasswordBox-->
+                <RowDefinition Height="Auto"/> <!--Buttons-->
             </Grid.RowDefinitions>
             <TextBlock
+                Text="Username:"
                 Grid.Row="0"
                 FontSize="10"
                 FontWeight="Bold"
                 HorizontalAlignment="Stretch"
-                Margin="0,0,0,5"
-                Text="Username:"/>
+                Margin="0,0,0,5"/>
             <TextBox
                 x:Name="TxtUsername"
                 Grid.Row="1"
@@ -58,12 +55,12 @@
                 Width="150"
                 Height="15"/>
             <TextBlock
+                Text="Password:"
                 Grid.Row="2"
                 FontSize="10"
                 FontWeight="Bold"
                 HorizontalAlignment="Stretch"
-                Margin="0,0,0,5"
-                Text="Password:"/>
+                Margin="0,0,0,5"/>
             <PasswordBox
                 x:Name="PwdPassword"
                 Grid.Row="3"
@@ -77,9 +74,10 @@
                 Height="25"
                 HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/> <!--Button Sign Up-->
+                    <ColumnDefinition Width="*"/> <!--Button Login-->
                 </Grid.ColumnDefinitions>
+                
                 <Button
                     x:Name="BtnSignUp"
                     Grid.Column="0"
@@ -89,7 +87,7 @@
                     Width="50"
                     Height="15"
                     Click="BtnSignUp_Click"
-                    Content="Sign Up"/>
+                    Content="Sign Up"/> <!--Sign Up-->
                 <Button
                     x:Name="BtnLogin"
                     Grid.Column="1"
@@ -99,9 +97,10 @@
                     Width="50"
                     Height="15"
                     Click="BtnLogin_Click"
-                    Content="Login"/>
+                    Content="Login"/> <!--Login-->
             </Grid>
-        </Grid>
+        </Grid> <!--Login Controls-->
+        
         <Button
             x:Name="BtnGuest"
             Grid.Column="4"
@@ -112,6 +111,6 @@
             Height="15"
             Content="Guest" 
             Margin="4,14,4,14" 
-            Click="BtnGuest_Click"/>
+            Click="BtnGuest_Click"/> <!--Guest-->
     </Grid>
 </Window>

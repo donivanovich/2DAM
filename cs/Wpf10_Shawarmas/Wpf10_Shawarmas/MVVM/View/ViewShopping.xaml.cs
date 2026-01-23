@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Wpf10_Shawarmas.MVVM.View
 {
     /// <summary>
-    /// Lógica de interacción para ViewBuy.xaml
+    /// Lógica de interacción para ViewShopping.xaml
     /// </summary>
-    public partial class ViewBuy : Page
+    public partial class ViewShopping : Page
     {
-        public ViewBuy()
+        public ViewShopping()
         {
             InitializeComponent();
         }

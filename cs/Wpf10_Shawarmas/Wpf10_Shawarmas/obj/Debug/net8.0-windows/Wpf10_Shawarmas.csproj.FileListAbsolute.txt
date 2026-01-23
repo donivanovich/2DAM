@@ -48,3 +48,9 @@ C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Sha
 C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\WindowSignUp.baml
 C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\WindowLogin.g.cs
 C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\WindowLogin.baml
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewAbout.g.cs
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewConfiguration.g.cs
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewShopping.g.cs
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewAbout.baml
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewConfiguration.baml
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\2DAM\cs\Wpf10_Shawarmas\Wpf10_Shawarmas\obj\Debug\net8.0-windows\MVVM\View\ViewShopping.baml

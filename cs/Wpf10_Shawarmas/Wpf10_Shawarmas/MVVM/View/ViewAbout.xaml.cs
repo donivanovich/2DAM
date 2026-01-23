@@ -24,5 +24,10 @@ namespace Wpf10_Shawarmas.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void BtnReturn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
