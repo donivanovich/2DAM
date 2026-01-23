@@ -24,5 +24,15 @@ namespace Wpf10_Shawarmas.MVVM.View
         {
             InitializeComponent();
         }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnSave_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -31,7 +31,7 @@ namespace Wpf10_Shawarmas
             password = PwdPassword.Password;
 
             if (username == "donnie" && password == "1234"){
-                ViewMainMenu mainmenuWindow = new ViewMainMenu();
+                WindowsMainMenu mainmenuWindow = new WindowsMainMenu();
                 mainmenuWindow.Show();
                 this.Close();
             }
