@@ -2,9 +2,10 @@ package com.mrh.listarcontactos
 
 import java.math.BigInteger
 
-data class Contacto (
+data class Contacto(
     var nombre: String,
-    var apellidos: String,
-    var email: String,
-    var telefono: BigInteger
+    var apellido: String,
+    var mail: String,
+    var telefono: BigInteger,
+    val imagenId: Int? = null
 )
