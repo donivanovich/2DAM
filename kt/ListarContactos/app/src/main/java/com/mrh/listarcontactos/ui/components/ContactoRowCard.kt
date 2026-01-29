@@ -1,8 +1,10 @@
 package com.mrh.listarcontactos.ui.components
 
 import android.R.attr.id
+import android.R.attr.onClick
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -28,11 +30,14 @@ import com.mrh.listarcontactos.Contacto
 
 
 @Composable
-fun ContactoRowCard(contacto: Contacto) {
+fun ContactoRowCard(contacto: Contacto,
+                    onClick: () -> Unit = {}) {
     Card(
+        onClick = onClick,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 8.dp, vertical = 4.dp),
+            .padding(horizontal = 8.dp, vertical = 4.dp)
+            .clickable { onClick() },
         colors = CardDefaults.cardColors(
             containerColor = Color(0xFF3A2727)
         )

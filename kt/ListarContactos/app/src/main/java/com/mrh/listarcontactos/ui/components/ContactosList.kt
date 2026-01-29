@@ -38,17 +38,27 @@ fun MainView(modifier: Modifier = Modifier) {
         )
     }
 
-    ContactosList(listaContactos, modifier)
-
-
+    ContactosList(
+        contactos = listaContactos,
+        onItemClick = { contacto ->
+            println("Mostrar detalles de ${contacto.nombre}")
+        },
+        modifier = modifier
+    )
 }
 
 @Composable
-fun ContactosList(contactos: List<Contacto>, modifier: Modifier = Modifier){
+fun ContactosList(
+    contactos: List<Contacto>,
+    onItemClick: (Contacto) -> Unit,
+    modifier: Modifier = Modifier
+){
     LazyColumn(modifier = modifier) {
-
         items(contactos){ contacto ->
-            ContactoRowCard(contacto)
+            ContactoRowCard(
+                contacto = contacto,
+                onClick = { onItemClick(contacto) }
+            )
         }
     }
 }
