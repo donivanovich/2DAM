@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\",
+  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\data\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\kosoi\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\data\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|solutionrelative:mvvm\\data\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\kosoi\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|solutionrelative:mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\view\\pagina.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|c:\\users\\kosoi\\documents\\github\\2dam\\cs\\wpf09_conectardb\\mvvm\\view\\pagina.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{11CF51ED-0C1F-4932-A683-B0C88BB8C2B2}|Wpf09_ConectarDB.csproj|solutionrelative:mvvm\\view\\pagina.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,50 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pagina.xaml",
-              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\View\\Pagina.xaml",
-              "RelativeDocumentMoniker": "MVVM\\View\\Pagina.xaml",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\View\\Pagina.xaml",
-              "RelativeToolTip": "MVVM\\View\\Pagina.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-15T18:54:31.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pagina.xaml",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\View\\Pagina.xaml",
+              "RelativeDocumentMoniker": "MVVM\\View\\Pagina.xaml",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\View\\Pagina.xaml",
+              "RelativeToolTip": "MVVM\\View\\Pagina.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-15T18:54:31.959Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\ViewModel\\MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "MVVM\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "MVVM\\ViewModel\\MainViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T18:56:28.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T18:56:28.947Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\Data\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\Data\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "MVVM\\Data\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\Data\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\cs\\Wpf09_ConectarDB\\MVVM\\Data\\AccesoDatos.cs",
               "RelativeToolTip": "MVVM\\Data\\AccesoDatos.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAwwHMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T18:28:36.224Z",
               "EditorCaption": ""
