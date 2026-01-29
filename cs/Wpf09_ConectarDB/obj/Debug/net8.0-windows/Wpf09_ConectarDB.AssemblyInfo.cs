@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wpf09_ConectarDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8b302c1ba0552489cea6f852da07d3f61b60ada")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b65a7ffee0e1281314cf78fb06b187bb7ad7b52")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wpf09_ConectarDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wpf09_ConectarDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
