@@ -1,0 +1,9 @@
+IncidenciaID,Incidencia,FamiliaIncidencia
+I01,Inversor fuera de rango,Eléctrica
+I02,String con baja producción,Eléctrica
+I03,Sensor sucio/averiado,Instrumentación
+I04,Pérdida de comunicación,Comunicaciones
+I05,Fuga hidráulica,Mecánica
+I06,Rotor vibración,Mecánica
+I07,Panel dañado,Estructural
+I08,Desalineación seguidor,Mecánica

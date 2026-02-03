@@ -1,0 +1,6 @@
+CentroID,CentroNombre,Ciudad,TipoCentro,Zona
+CEN01,SaludNova Centro,Madrid,Urbano,Centro
+CEN02,SaludNova Norte,Madrid,Urbano,Norte
+CEN03,SaludNova Diagonal,Barcelona,Urbano,Eixample
+CEN04,SaludNova Valencia,Valencia,Urbano,Centro
+CEN05,SaludNova Sevilla,Sevilla,Urbano,Triana
