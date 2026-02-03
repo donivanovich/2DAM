@@ -1,0 +1,7 @@
+AccionID,AccionRealizada,TipoAccion
+A01,Reinicio equipo,Correctiva
+A02,Sustitución componente,Correctiva
+A03,Limpieza/ajuste,Preventiva
+A04,Actualización firmware,Correctiva
+A05,Inspección visual,Preventiva
+A06,Calibración sensor,Preventiva

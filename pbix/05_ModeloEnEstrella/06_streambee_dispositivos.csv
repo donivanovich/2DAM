@@ -1,0 +1,8 @@
+DispositivoID,TipoDispositivo,Sistema,AppVersion
+D01,Smart TV,Tizen,5.2.1
+D02,Smart TV,webOS,5.1.9
+D03,Móvil,Android,6.0.3
+D04,Móvil,iOS,6.1.0
+D05,Tablet,Android,6.0.3
+D06,PC,Windows,6.0.0
+D07,Consola,PS,5.9.2

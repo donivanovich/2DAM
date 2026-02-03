@@ -1,0 +1,13 @@
+CategoriaID,Categoria,Subcategoria
+CAT01,Alimentación,Supermercado
+CAT02,Alimentación,Restauración
+CAT03,Transporte,Gasolina
+CAT04,Transporte,Transporte público
+CAT05,Ocio,Cine/Streaming
+CAT06,Ocio,Bares
+CAT07,Hogar,Alquiler/Hipoteca
+CAT08,Hogar,Suministros
+CAT09,Salud,Farmacia
+CAT10,Compras,Moda
+CAT11,Compras,Electrónica
+CAT12,Finanzas,Inversión/Ahorro

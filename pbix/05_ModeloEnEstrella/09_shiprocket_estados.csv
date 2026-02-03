@@ -1,0 +1,7 @@
+EstadoID,Estado
+ST01,Creado
+ST02,En tránsito
+ST03,En reparto
+ST04,Entregado
+ST05,Incidencia
+ST06,Devuelto

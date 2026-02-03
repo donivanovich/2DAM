@@ -1,0 +1,6 @@
+PlantaID,Planta,Provincia,TipoPlanta,PotenciaMW
+PL01,SolarHorizon Toledo,Toledo,Solar,85
+PL02,SolarHorizon Almería,Almería,Solar,120
+PL03,SolarHorizon Zaragoza,Zaragoza,Solar,70
+PL04,SolarHorizon Cádiz,Cádiz,Eólica,95
+PL05,SolarHorizon Burgos,Burgos,Eólica,110

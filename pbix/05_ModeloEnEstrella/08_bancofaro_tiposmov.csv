@@ -1,0 +1,6 @@
+TipoMovID,TipoMov
+TM01,Cargo
+TM02,Abono
+TM03,Comisión
+TM04,Ingreso nómina
+TM05,Retirada efectivo

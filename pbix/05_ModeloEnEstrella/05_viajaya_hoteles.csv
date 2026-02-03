@@ -1,0 +1,40 @@
+HotelID,HotelNombre,CadenaHotelera,Estrellas,DestinoID
+H0001,CityStay Roma 1,CityStay,4,D001
+H0002,Sakura Roma 2,Sakura Group,4,D001
+H0003,Atlas Roma 3,Atlas Inn,4,D001
+H0004,Duomo Florencia 1,Duomo Collection,5,D002
+H0005,CityStay Florencia 2,CityStay,3,D002
+H0006,Sakura Florencia 3,Sakura Group,3,D002
+H0007,Duomo Venecia 1,Duomo Collection,4,D003
+H0008,CityStay Venecia 2,CityStay,4,D003
+H0009,Aureo París 1,Aureo Hotels,3,D004
+H0010,Sakura París 2,Sakura Group,3,D004
+H0011,Duomo París 3,Duomo Collection,4,D004
+H0012,Duomo Lisboa 1,Duomo Collection,3,D005
+H0013,Duomo Lisboa 2,Duomo Collection,4,D005
+H0014,Atlas Oporto 1,Atlas Inn,4,D006
+H0015,Aureo Oporto 2,Aureo Hotels,3,D006
+H0016,CityStay Oporto 3,CityStay,3,D006
+H0017,Aureo Londres 1,Aureo Hotels,4,D007
+H0018,BlueWave Londres 2,BlueWave,4,D007
+H0019,Atlas Londres 3,Atlas Inn,4,D007
+H0020,Atlas Londres 4,Atlas Inn,3,D007
+H0021,Sakura Berlín 1,Sakura Group,4,D008
+H0022,BlueWave Berlín 2,BlueWave,3,D008
+H0023,CityStay Berlín 3,CityStay,5,D008
+H0024,Duomo Berlín 4,Duomo Collection,3,D008
+H0025,Aureo Barcelona 1,Aureo Hotels,5,D009
+H0026,Sakura Barcelona 2,Sakura Group,5,D009
+H0027,Aureo Sevilla 1,Aureo Hotels,3,D010
+H0028,Aureo Sevilla 2,Aureo Hotels,4,D010
+H0029,Sakura Valencia 1,Sakura Group,5,D011
+H0030,Atlas Valencia 2,Atlas Inn,4,D011
+H0031,Aureo Valencia 3,Aureo Hotels,3,D011
+H0032,BlueWave Nueva York 1,BlueWave,5,D012
+H0033,CityStay Nueva York 2,CityStay,4,D012
+H0034,Duomo Nueva York 3,Duomo Collection,3,D012
+H0035,Duomo Nueva York 4,Duomo Collection,3,D012
+H0036,Duomo Tokio 1,Duomo Collection,3,D013
+H0037,Sakura Tokio 2,Sakura Group,4,D013
+H0038,Atlas Tokio 3,Atlas Inn,3,D013
+H0039,Atlas Tokio 4,Atlas Inn,5,D013

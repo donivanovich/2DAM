@@ -1,0 +1,14 @@
+CiudadID,Ciudad,Pais,Region
+CI001,Madrid,España,Centro
+CI002,Barcelona,España,Cataluña
+CI003,Valencia,España,Comunidad Valenciana
+CI004,Sevilla,España,Andalucía
+CI005,Bilbao,España,País Vasco
+CI006,Zaragoza,España,Aragón
+CI007,Málaga,España,Andalucía
+CI008,Alicante,España,Comunidad Valenciana
+CI009,Lisboa,Portugal,Lisboa
+CI010,Oporto,Portugal,Norte
+CI011,París,Francia,Île-de-France
+CI012,Roma,Italia,Lazio
+CI013,Berlín,Alemania,Berlín

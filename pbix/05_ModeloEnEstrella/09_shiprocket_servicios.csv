@@ -1,0 +1,5 @@
+ServicioID,Servicio,SLAHoras
+SV01,Económico 72h,72
+SV02,Estándar 48h,48
+SV03,Express 24h,24
+SV04,Internacional 4-7d,120

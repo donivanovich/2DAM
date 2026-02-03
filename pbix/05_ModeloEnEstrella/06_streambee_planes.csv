@@ -1,0 +1,4 @@
+PlanID,PlanNombre,PrecioMensual,CalidadMax
+P01,Basic,7.99,HD
+P02,Standard,11.99,FullHD
+P03,Premium,15.99,4K
