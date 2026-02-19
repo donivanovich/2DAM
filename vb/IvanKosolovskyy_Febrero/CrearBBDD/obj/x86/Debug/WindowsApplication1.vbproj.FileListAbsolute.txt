@@ -1,0 +1,14 @@
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Interop.ADOMD.dll
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\tere\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
