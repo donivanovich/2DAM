@@ -1,0 +1,92 @@
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.pdb
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.xml
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Form1.resources
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Resources.resources
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.GenerateResource.Cache
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+Z:\PROFESORES\TERE\vb\BBDD\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.pdb
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.xml
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Form1.resources
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Resources.resources
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.GenerateResource.Cache
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+D:\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbprojAssemblyReference.cache
+\\jupiter\PROFESORES\tere\VB net\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.CoreCompileInputs.cache
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe.config
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.pdb
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.xml
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.AssemblyReference.cache
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.GenerateResource.cache
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.CoreCompileInputs.cache
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb
+C:\Users\sergio.peralvarez_al\Desktop\2DAM\VB\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.pdb
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe.config
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+C:\Users\ivan.kosolovskyy_alu\Documents\GitHub\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe.config
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.exe
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.pdb
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\bin\Debug\CrearBBDD.xml
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe.config
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOMD.dll
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.ResolveComReference.cache
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.GenerateResource.cache
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.vbproj.CoreCompileInputs.cache
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.exe
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.xml
+C:\Users\ivan.kosolovskyy_alu\Downloads\IvanKosolovskyy_Febrero\CrearBBDD\CrearBBDD\obj\x86\Debug\CrearBBDD.pdb

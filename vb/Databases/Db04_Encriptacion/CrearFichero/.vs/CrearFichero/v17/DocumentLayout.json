@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\",
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|c:\\users\\kosoi\\documents\\github\\2dam\\vb\\databases\\db04_encriptacion\\crearfichero\\crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|solutionrelative:crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|solutionrelative:crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|solutionrelative:crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\vb\\databases\\db04_encriptacion\\crearfichero\\crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{C49BDC76-413E-4A93-8311-78E96C22E936}|CrearFichero\\CrearFichero.vbproj|solutionrelative:crearfichero\\frmusu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmUsu.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
               "RelativeDocumentMoniker": "CrearFichero\\FrmUsu.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb [Dise\u00F1o]",
               "RelativeToolTip": "CrearFichero\\FrmUsu.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-02-19T10:44:06.141Z",
@@ -38,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FrmUsu.vb",
-              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
               "RelativeDocumentMoniker": "CrearFichero\\FrmUsu.vb",
-              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db04_Encriptacion\\CrearFichero\\CrearFichero\\FrmUsu.vb",
               "RelativeToolTip": "CrearFichero\\FrmUsu.vb",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-02-19T10:44:01.969Z"
+              "WhenOpened": "2026-02-19T10:44:01.969Z",
+              "EditorCaption": ""
             }
           ]
         }
