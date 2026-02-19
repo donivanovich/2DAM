@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Mail_VB2005">
+</Property><Property Name="Archivo de la solución" Value="\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005.suo">
+</Property><Property Name="Date" Value="viernes, 01 de febrero de 2013">
+</Property><Property Name="Time" Value="11:51">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Mail_VB2005.sln" Description="La copia \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005.sln del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="Mail_VB2005.suo" Description="La copia \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005.suo del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\Mail_VB2005.vbproj" Description="Se realizó correctamente la copia de seguridad del archivo de proyecto \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\Mail_VB2005.vbproj">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\Form1.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\Form1.Designer.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\AssemblyInfo.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Application.Designer.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Resources.Designer.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Settings.Designer.vb" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Application.myapp" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Settings.settings" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\Form1.resx" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\My Project\Resources.resx" Description="Se realizó correctamente la copia de seguridad del archivo \\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Backup\Mail_VB2005\My Project\Resources.resx">
+</Event><Event ErrorLevel="1" Project="Mail_VB2005" Source="Mail_VB2005\Mail_VB2005.vbproj" Description="La versión de destino de su proyecto es .NET Framework 2.0 ó 3.0. Si el proyecto utiliza ensamblados que requieren una versión más reciente de .NET Framework, no se podrá compilar. Puede cambiar la versión de .NET Framework haciendo clic en Propiedades en el menú del proyecto y seleccionando una nueva versión en el cuadro desplegable '.NET Framework'. (En Visual Basic, haga clic en el botón 'Opciones avanzadas del compilador...' en la pestaña Compilar).">
+</Event><Event ErrorLevel="0" Project="Mail_VB2005" Source="Mail_VB2005\Mail_VB2005.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Mail_VB2005" Source="Mail_VB2005\Mail_VB2005.vbproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="Mail_VB2005" Source="Mail_VB2005\Mail_VB2005.vbproj" Description="">
+</Event><Event ErrorLevel="0" Project="" Source="Mail_VB2005.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Mail_VB2005.sln" Description="Converted">
+</Event></UpgradeLog>

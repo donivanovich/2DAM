@@ -1,0 +1,10 @@
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+D:\Documents and Settings\Tere\Configuración local\Datos de programa\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb

@@ -1,0 +1,3 @@
+obj\Debug\Mail_VB2005.exe
+obj\Debug\Mail_VB2005.xml
+obj\Debug\Mail_VB2005.pdb
