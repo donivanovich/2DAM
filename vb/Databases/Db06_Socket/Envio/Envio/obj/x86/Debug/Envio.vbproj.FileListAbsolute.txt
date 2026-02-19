@@ -1,0 +1,17 @@
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\Envio.Form1.resources
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\Envio.Resources.resources
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Envio.exe
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Envio.pdb
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Envio.xml
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Servidor.dll
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Servidor.pdb
+Z:\TERE\vb\socket\Envio\Envio\bin\Debug\Servidor.xml
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\Envio.exe
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\Envio.xml
+Z:\TERE\vb\socket\Envio\Envio\obj\x86\Debug\Envio.pdb
+\\jupiter\PROFESORES\tere\VB net\socket\Envio\Envio\obj\x86\Debug\Envio.exe
+\\jupiter\PROFESORES\tere\VB net\socket\Envio\Envio\obj\x86\Debug\Envio.xml
+\\jupiter\PROFESORES\tere\VB net\socket\Envio\Envio\obj\x86\Debug\Envio.pdb

@@ -1,0 +1,10 @@
+bin\Release\WindowsControlLibrary1.dll
+bin\Release\WindowsControlLibrary1.pdb
+bin\Release\WindowsControlLibrary1.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WindowsControlLibrary1.Resources.resources
+obj\Release\WindowsControlLibrary1.TextboxNumerico.resources
+obj\Release\WindowsControlLibrary1.vbproj.GenerateResource.Cache
+obj\Release\WindowsControlLibrary1.dll
+obj\Release\WindowsControlLibrary1.xml
+obj\Release\WindowsControlLibrary1.pdb

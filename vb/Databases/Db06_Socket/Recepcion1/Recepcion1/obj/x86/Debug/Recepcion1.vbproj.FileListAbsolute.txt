@@ -1,0 +1,17 @@
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Recepcion1.exe
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Recepcion1.pdb
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Recepcion1.xml
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Cliente.dll
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Cliente.pdb
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\bin\Debug\Cliente.xml
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion.Form1.resources
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion.Resources.resources
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.exe
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.xml
+Z:\TERE\vb\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.pdb
+\\jupiter\PROFESORES\tere\VB net\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.exe
+\\jupiter\PROFESORES\tere\VB net\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.xml
+\\jupiter\PROFESORES\tere\VB net\socket\Recepcion1\Recepcion1\obj\x86\Debug\Recepcion1.pdb

@@ -1,0 +1,14 @@
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Release\ResolveAssemblyReference.cache
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Release\Mail_VB2005.FrmMail.resources
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Release\Mail_VB2005.Resources.resources
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Release\Mail_VB2005.vbproj.GenerateResource.Cache
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\bin\Debug\Mail_VB2005.exe
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\bin\Debug\Mail_VB2005.pdb
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\bin\Debug\Mail_VB2005.xml
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\ResolveAssemblyReference.cache
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.FrmMail.resources
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.Resources.resources
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.GenerateResource.Cache
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.exe
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.xml
+D:\Alex\Visual Proyectos NET\general\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.pdb

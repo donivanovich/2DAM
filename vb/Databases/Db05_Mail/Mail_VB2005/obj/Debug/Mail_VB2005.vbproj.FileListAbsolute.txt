@@ -1,0 +1,28 @@
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.exe
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.xml
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.pdb
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\ResolveAssemblyReference.cache
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.FrmMail.resources
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\Mail_VB2005.Resources.resources
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\GenerateResource-ResGen.read.1.tlog
+\\Jupiter\tere\VB net\hilos\Mail_VB2005\Mail_VB2005\Mail_VB2005\obj\Debug\GenerateResource-ResGen.write.1.tlog
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.exe
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.xml
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.pdb
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbprojResolveAssemblyReference.cache
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.FrmMail.resources
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.Resources.resources
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.GenerateResource.Cache
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbprojAssemblyReference.cache
+\\jupiter\PROFESORES\tere\VB net\hilos\Mail_VB\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.CoreCompileInputs.cache
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.AssemblyReference.cache
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.FrmMail.resources
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.Resources.resources
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.GenerateResource.cache
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.vbproj.CoreCompileInputs.cache
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.exe
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.xml
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\obj\Debug\Mail_VB2005.pdb
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\bin\Debug\Mail_VB2005.exe
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\bin\Debug\Mail_VB2005.pdb
+C:\Users\kosoi\Documents\GitHub\2DAM\vb\Databases\Db05_Mail\Mail_VB\Mail_VB2005\bin\Debug\Mail_VB2005.xml

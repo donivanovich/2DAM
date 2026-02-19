@@ -1,0 +1,10 @@
+Z:\TERE\vb\socket\Servidor\Servidor\bin\Debug\Servidor.dll
+Z:\TERE\vb\socket\Servidor\Servidor\bin\Debug\Servidor.pdb
+Z:\TERE\vb\socket\Servidor\Servidor\bin\Debug\Servidor.xml
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\ResolveAssemblyReference.cache
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\Servidor.Resources.resources
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\GenerateResource.read.1.tlog
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\GenerateResource.write.1.tlog
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\Servidor.dll
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\Servidor.xml
+Z:\TERE\vb\socket\Servidor\Servidor\obj\Debug\Servidor.pdb

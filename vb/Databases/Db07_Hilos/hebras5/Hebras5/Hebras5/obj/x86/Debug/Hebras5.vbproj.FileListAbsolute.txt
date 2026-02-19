@@ -1,0 +1,9 @@
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\bin\Debug\Hebras5.exe
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\bin\Debug\Hebras5.pdb
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\bin\Debug\Hebras5.xml
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\Hebras5.vbprojResolveAssemblyReference.cache
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\WindowsApplication1.Resources.resources
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\Hebras5.vbproj.GenerateResource.Cache
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\Hebras5.exe
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\Hebras5.xml
+\\jupiter\PROFESORES\tere\VB net\hilos\hebras5\Hebras5\Hebras5\obj\x86\Debug\Hebras5.pdb
