@@ -1,2 +1,0 @@
-# Detectar XAML como código
-*.xaml linguist-language=XML
