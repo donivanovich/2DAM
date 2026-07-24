@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AprendeBusinessCentral",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://bcjoyfedam2b2526",            // Esta es la url del enpoint
+            "serverInstance": "BC",                         // Nombre de mi instacia de BC
+            "authentication": "UserPassword",               // Tipo de autenticacion (Windows, Userpassword, tec...)
+            "startupObjectId": 22,                          // Es el objeto que aparece al publicar mi proyecto 
+            "startupObjectType": "Page",                    // Es el tipo de objeto que aparece al publicar
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": false,
+            "schemaUpdateMode": "ForceSync"                 // Esta propiedad me permite modificar la estructura de la vase de datos. Se salta la advertencia
+        }
+    ]
+}

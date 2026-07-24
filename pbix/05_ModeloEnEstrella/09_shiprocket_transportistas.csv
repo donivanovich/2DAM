@@ -1,0 +1,5 @@
+TransportistaID,Transportista,Modo
+TR01,IberExpress,Carretera
+TR02,AeroFast,Aéreo
+TR03,RailShip,Ferrocarril
+TR04,CityCourier,Última milla

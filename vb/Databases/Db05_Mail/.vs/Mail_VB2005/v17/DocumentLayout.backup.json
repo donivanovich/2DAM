@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD15CA4-8161-46E6-9D84-4CDF9BFDFC23}|Mail_VB2005\\Mail_VB2005.vbproj|c:\\users\\kosoi\\documents\\github\\2dam\\vb\\databases\\db05_mail\\mail_vb2005\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FFD15CA4-8161-46E6-9D84-4CDF9BFDFC23}|Mail_VB2005\\Mail_VB2005.vbproj|solutionrelative:mail_vb2005\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFD15CA4-8161-46E6-9D84-4CDF9BFDFC23}|Mail_VB2005\\Mail_VB2005.vbproj|C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\mail_vb2005\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FFD15CA4-8161-46E6-9D84-4CDF9BFDFC23}|Mail_VB2005\\Mail_VB2005.vbproj|solutionrelative:mail_vb2005\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\Mail_VB2005\\Form1.vb",
+              "RelativeDocumentMoniker": "Mail_VB2005\\Form1.vb",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\Mail_VB2005\\Form1.vb",
+              "RelativeToolTip": "Mail_VB2005\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-19T10:47:38.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\Mail_VB2005\\Form1.vb",
+              "RelativeDocumentMoniker": "Mail_VB2005\\Form1.vb",
+              "ToolTip": "C:\\Users\\kosoi\\Documents\\GitHub\\2DAM\\vb\\Databases\\Db05_Mail\\Mail_VB\\Mail_VB2005\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Mail_VB\\Mail_VB2005\\Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-02-19T10:47:35.036Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

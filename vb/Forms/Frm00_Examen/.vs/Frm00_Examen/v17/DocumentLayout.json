@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|c:\\users\\ivan.kosolovskyy_alu\\documents\\github\\2dam\\vb\\forms\\clasesexamendiciembre2025\\forms\\add\\frmintroducirdatospersonales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\add\\frmintroducirdatospersonales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\forms\\add\\frmintroducirdatospersonales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:forms\\add\\frmintroducirdatospersonales.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\classes\\alum.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:classes\\alum.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\classes\\academico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84C2A0EF-91EB-461E-A7BB-00163BC46925}|ClasesExamenDiciembre2025.vbproj|solutionrelative:classes\\academico.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmIntroducirDatosPersonales.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "RelativeDocumentMoniker": "Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "RelativeToolTip": "Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-13T17:28:30.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmIntroducirDatosPersonales.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "RelativeDocumentMoniker": "Forms\\Add\\FrmIntroducirDatosPersonales.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Forms\\Add\\FrmIntroducirDatosPersonales.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\Add\\FrmIntroducirDatosPersonales.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-13T17:28:25.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-13T17:26:31.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alum.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Classes\\Alum.vb",
+              "RelativeDocumentMoniker": "Classes\\Alum.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Classes\\Alum.vb",
+              "RelativeToolTip": "Classes\\Alum.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-13T17:17:28.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Academico.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Classes\\Academico.vb",
+              "RelativeDocumentMoniker": "Classes\\Academico.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Classes\\Academico.vb",
+              "RelativeToolTip": "Classes\\Academico.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-13T17:17:24.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\ivan.kosolovskyy_alu\\Documents\\GitHub\\2DAM\\vb\\Forms\\ClasesExamenDiciembre2025\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-01-12T21:36:52.46Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

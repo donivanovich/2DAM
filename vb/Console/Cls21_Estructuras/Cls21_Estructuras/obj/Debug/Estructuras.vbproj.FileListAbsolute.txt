@@ -1,0 +1,11 @@
+C:\VB\Estructuras\Estructuras\bin\Debug\Estructuras.exe.config
+C:\VB\Estructuras\Estructuras\bin\Debug\Estructuras.exe
+C:\VB\Estructuras\Estructuras\bin\Debug\Estructuras.pdb
+C:\VB\Estructuras\Estructuras\bin\Debug\Estructuras.xml
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.vbprojAssemblyReference.cache
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.Resources.resources
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.vbproj.GenerateResource.cache
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.vbproj.CoreCompileInputs.cache
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.exe
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.xml
+C:\VB\Estructuras\Estructuras\obj\Debug\Estructuras.pdb

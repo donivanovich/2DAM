@@ -1,0 +1,8 @@
+PruebaID,Prueba,TipoPrueba
+P001,Analítica,Laboratorio
+P002,Radiografía,Imagen
+P003,Ecografía,Imagen
+P004,Resonancia,Imagen
+P005,Electrocardiograma,Cardio
+P006,Revisión,Consulta
+P007,Vacunación,Enfermería

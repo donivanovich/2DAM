@@ -1,0 +1,38 @@
+Imports System.Data
+Imports System.Data.OleDb
+
+Module Module1
+
+    Sub Main()
+
+ Dim cn As New OleDbConnection()
+        Dim schemaTable As DataTable
+        Dim i As Integer
+
+        'Conectarse a la base de datos Neptuno de SQL Server.
+        'Asegúrese de usar una cuenta que tenga permisos
+        'para enumerar las columnas de la tabla Empleados.
+        cn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;" &
+                       "Data Source=C:\vbnet\BBDD\Nuevo4.accdb"
+        cn.Open()
+
+        'Recuperar la información de esquema sobre columnas.
+        'Restringir los datos sólo a la tabla Empleados.
+        schemaTable = cn.GetOleDbSchemaTable(OleDbSchemaGuid.Columns,
+                      New Object() {Nothing, Nothing, "Datos", Nothing})
+
+        'Enumere el nombre de columna para cada fila de la tabla de esquema.
+        For i = 0 To schemaTable.Rows.Count - 1
+            Console.WriteLine(schemaTable.Rows(i)!COLUMN_NAME.ToString)
+        Next i
+
+        'Cerrar explícitamente; no esperar a una recolección de elementos no utilizados.
+        cn.Close()
+
+        'Pause
+        Console.ReadLine()
+
+
+    End Sub
+
+End Module

@@ -1,0 +1,10 @@
+Z:\TERE\vb\socket\Cliente\Cliente\bin\Debug\Cliente.dll
+Z:\TERE\vb\socket\Cliente\Cliente\bin\Debug\Cliente.pdb
+Z:\TERE\vb\socket\Cliente\Cliente\bin\Debug\Cliente.xml
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\ResolveAssemblyReference.cache
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\Cliente.Resources.resources
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\GenerateResource.read.1.tlog
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\GenerateResource.write.1.tlog
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\Cliente.dll
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\Cliente.xml
+Z:\TERE\vb\socket\Cliente\Cliente\obj\Debug\Cliente.pdb

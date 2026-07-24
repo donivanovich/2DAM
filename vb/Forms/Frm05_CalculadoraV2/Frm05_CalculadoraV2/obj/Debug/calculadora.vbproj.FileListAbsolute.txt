@@ -1,0 +1,3 @@
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\calculadora\calculadora\obj\Debug\calculadora.vbproj.AssemblyReference.cache
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\calculadora\calculadora\obj\Debug\calculadora.xml
+C:\Users\ivan.kosolovskyy_alu\Desktop\vbnet\calculadora\calculadora\obj\Debug\calculadora.pdb
